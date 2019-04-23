@@ -1,0 +1,109 @@
+.art-page .hero {
+    height: 600px;
+    width: 100%;
+    position: relative; 
+    background-color: #ccc; 
+    background: url('../../images/morocco1.jpg');
+    background-size: cover;
+}
+
+.art-page .hero h1 {
+    position: absolute; 
+    bottom: 20px; 
+    left: 20px; 
+    color: #fff;
+}
+
+.art-page .description {
+    padding: 20px;
+    text-align: center;
+}
+.art-page .grid {
+    display: grid; 
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: 300px 400px; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    max-width: 1000px; 
+    width: 95%;
+    margin: 100px auto;
+}
+
+.art-page .grid-item {
+    width: 100%; 
+    height: 100%; 
+    display: inline-block;
+    margin: 0;
+    transition: all 1s ease-in-out; 
+    transform: translate(0, 50%);
+    opacity: 0;
+    /* animation-name: fadein; */
+    /* animation-duration: 2s; */
+}
+
+.art-page .grid-item:hover {
+    transform:scale(0.95); 
+}
+
+.art-page .grid-item:nth-child(3n) {
+    margin-top: -50px; 
+}
+
+.art-page .grid-item:nth-child(3n + 1) {
+    margin-top: -50px; 
+}
+
+.art-page .active {
+    transform: translate(0);
+    opacity: 1;
+}
+
+
+@media (max-width: 1000px) {
+
+    .art-page .hero {
+        height: 500px;
+    }
+    
+    .art-page .grid {
+        grid-auto-rows: 200px 300px; 
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .art-page .hero h1 {
+        font-size: 1.75rem; 
+    }
+
+    .art-page .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 300px; 
+        width: 90%;
+    }
+
+    .art-page .grid-item:nth-child(3n), 
+    .art-page .grid-item:nth-child(3n + 1) {
+        margin-top: 0px; 
+    }
+    
+    
+}
+
+@media (max-width: 400px) {
+
+    .art-page .hero {
+        height: 400px;
+    }
+    .art-page .grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 400px; 
+        width: 95%;
+    }
+}
+
+
+
+

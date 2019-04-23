@@ -1,0 +1,227 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 1400px;
+}
+
+#___gatsby {
+    overflow: hidden;
+}
+
+.home-page .hero {
+    height: 600px;
+    width: 100%;
+    background-color: #ccc; 
+    /* padding: 20px; */
+    /* position: relative;  */
+    z-index: 0;
+}
+
+.home-page .brief-text {
+    background: #fff; 
+    /* border: 1px solid #333;  */
+    z-index: 1;
+    width: 60%;
+    height: 300px;
+    margin: -200px auto 0; 
+    font: 700 42px 'Noto Sans', sans-serif; 
+    padding: 20px; 
+    text-align: center;
+}
+
+.home-page .content {
+    width: 90%; 
+    margin: 0 auto; 
+}
+
+.home-page .intro-text {
+    margin: 30px auto 20px; 
+}
+
+.home-page .text-link {
+    font: 700 18px 'Arial', sans-serif; 
+    text-decoration: none; 
+    transition: all .5s ease-in-out; 
+}
+
+.home-page .text-link.scrolled {
+    font-size: 28px;
+}
+
+.home-page .followup-text {
+    margin: 80px auto;
+}
+
+.home-page .followup-text .chart {
+    display: inline-block; 
+    vertical-align: top;
+    width: 45%;
+    max-width: 500px;
+
+}
+
+#life-chart {
+    max-height: 400px;
+    max-width: 500px;
+
+}
+
+.home-page .followup-text p {
+    display: inline-block; 
+    width: 55%;
+    padding-left: 5%;
+}
+
+.home-page .skill-badges {
+    display: flex; 
+    justify-content: space-around;
+    text-align: center; 
+    margin: 100px auto;
+}
+
+.home-page .skill-badges img {
+    border-radius: 100%;
+}
+
+.home-page .skill-badges .badge {
+    padding: 10px; 
+}
+
+.home-page .bottom-kickers {
+    display: block;
+    margin: 100px auto 200px;
+    text-align: center;
+}
+
+.home-page .bottom-kickers img,
+.home-page .bottom-kickers p {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+
+.home-page .bottom-kickers p {
+    padding: 100px 20px;
+    width: 300px;
+}
+
+#kicker1 {
+    margin-left: 50px;
+    transition: all 1s cubic-bezier(0.95, 0.14, 0.47, 1.21); 
+    transform: translateX(110%);
+}
+
+#kicker2 {
+    margin: -50px 50px 0 0;
+    transition: all 1s cubic-bezier(0.95, 0.14, 0.47, 1.21); 
+    transform: translateX(-110%);
+
+}
+
+#kicker1.scrolled, #kicker2.scrolled {
+    transform: initial;
+}
+
+#kicker1 p {
+    padding: 80px 70px 80px 20px;
+}
+
+#kicker2 p {
+    padding: 100px 20px 80px 70px;
+}
+
+
+
+@media (max-width: 750px) {
+
+    .home-page .hero {
+        height: 500px;
+    }
+
+    .home-page .brief-text {
+        font: 700 32px 'Noto Sans', sans-serif; 
+
+    }
+
+    .home-page .followup-text {
+        margin: 20px auto; 
+    }
+
+    .home-page .followup-text .chart {
+        display: block; 
+        margin: 0 auto;
+        width: 60%;
+    }
+    
+    #life-chart {
+        margin: 0 auto 20px;
+    }
+    
+    .home-page .followup-text p {
+        display: block; 
+        padding: 0;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    
+    .home-page .bottom-kickers {
+        margin: 50px auto;
+    }
+
+    .home-page .bottom-kickers .kicker {
+        margin: 0;
+    }
+
+    #kicker1, #kicker2 {
+        margin: 0;
+    }
+    
+
+}
+
+@media (max-width: 600px) {
+
+    .home-page .hero {
+        height: 400px;
+    }
+
+    .home-page .brief-text {
+        width: 90%;
+        font-size: 24px;
+        margin-top: -250px;
+        margin-bottom: 100px;
+        height: 200px;
+    }
+
+
+    #kicker1 p, #kicker2 p {
+        padding: 20px;
+    }
+
+    #kicker2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    #kicker2 p {
+        order: 2; 
+        margin: 0 auto;
+    }
+
+    #kicker2 img {
+        order: 1;
+        width: 300px;
+        margin: 0 auto;
+
+    }
+}
+
+@media (max-width: 450px) {
+    .home-page .followup-text .chart {
+        width: 90%;
+    }
+
+    .home-page .skill-badges {
+        margin: 50px auto;
+    }
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Righteous');
+/* font-family: 'Righteous', cursive;
+font-family: 'Noto Sans', sans-serif; */
+
+.header {
+    background: transparent; 
+    position: fixed; 
+    width: 100%;
+    z-index: 3;
+    transition: all .5s ease-in-out;
+    padding: 15px;
+}
+
+.header h1 {
+    display: inline-block;
+    /* font-family: 'Righteous', cursive; */
+    font: 400 1.8rem 'Righteous', cursive;
+}
+
+.header .header-container {
+    position: relative; 
+    max-width: 1350px;
+}
+
+.header h1 a {
+    color: #fff; 
+    transition: all .5s ease-in-out;
+
+}
+
+.header.scrolled h1 a {
+    color: #333; 
+}
+
+.header.scrolled {
+    background: #fff; 
+}
+
+.header .header-links {
+    float: right; 
+}
+
+.header .header-links  {
+    padding: 8px; 
+}
+
+.header .header-links a {
+    padding: 10px 10px; 
+    font: 400 1rem 'Noto Sans', sans-serif;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+    color: #fff;
+}
+
+.header.scrolled .header-links a {
+    color: #333;
+}
+
+.header .header-links a:hover {
+    color: rgb(245, 176, 230);
+}
+
+.header.scrolled .header-links a:hover {
+    color: rgb(121, 7, 96);
+
+}
+
