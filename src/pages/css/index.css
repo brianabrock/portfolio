@@ -8,24 +8,33 @@ body {
 }
 
 .home-page .hero {
-    height: 600px;
+    height: 500px;
     width: 100%;
-    background-color: #ccc; 
+    /* background-color: #ccc;  */
+    background: url('../../images/lake_allatoona.jpg');
+    background-size: cover;
+    background-position: 100% 30%;
+
     /* padding: 20px; */
     /* position: relative;  */
     z-index: 0;
+    margin-bottom: 50px;
 }
 
 .home-page .brief-text {
     background: #fff; 
     /* border: 1px solid #333;  */
     z-index: 1;
-    width: 60%;
-    height: 300px;
-    margin: -200px auto 0; 
-    font: 700 42px 'Noto Sans', sans-serif; 
+    width: 85%;
+    height: auto;
+    margin: -200px auto 100px; 
+    font: 700 36px 'Noto Sans', sans-serif; 
     padding: 20px; 
     text-align: center;
+}
+
+.brief-text p {
+    margin: 0;
 }
 
 .home-page .content {
