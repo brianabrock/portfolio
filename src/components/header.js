@@ -12,7 +12,7 @@ class Header extends React.Component {
 		const headerElem = document.querySelector('.header'); 
 		
 		window.addEventListener('scroll', function(e) {
-			window.scrollY > 200 ? headerElem.classList.add('scrolled') : headerElem.classList.remove('scrolled')
+			window.scrollY > 100 ? headerElem.classList.add('scrolled') : headerElem.classList.remove('scrolled')
 		})
 	}
 

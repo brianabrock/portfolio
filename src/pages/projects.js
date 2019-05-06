@@ -51,12 +51,14 @@ class Projects extends Component {
 
                     <section className="projects-container">
                         <article className="project" data-project="1">
-                            <a href={pdf} target="_blank">
+                            {/* <a href={pdf} target="_blank"> */}
+                            <Link to="/recycleATL">
                                 <div className="project-image">
                                     {/* <img src="https://via.placeholder.com/500x400" alt=""/> */}
                                     <img src={projKicker1} alt=""/>
                                 </div>
-                            </a>
+                            {/* </a> */}
+                            </Link>
                             <div className="project-description">
                                 <h2>Recycle ATL Mobile App</h2>
                                 <p>Users need a way to find out where they can drop off recyclables so they can become more environmentally conscious and reduce their carbon footprint. We believe by building a mobile app that lets users know where to drop off recyclables, users will become more informed and recycle on a daily basis. </p>

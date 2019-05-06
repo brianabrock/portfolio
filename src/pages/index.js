@@ -69,7 +69,7 @@ class Home extends React.Component {
 							<p>I am an actor, craft beer enthusiast, and UX Designer. An artist at heart with a customer service background, I bring the dynamic combination of creativity and understanding to the design process of the user’s experience. See my latest <Link className="text-link" to="/projects/">projects</Link> and how I might be able to help your team on your next venture.</p>
 						</section>
 
-						
+
 
 						{/* <section className="followup-text">
 
@@ -104,6 +104,14 @@ class Home extends React.Component {
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, a.</p>
 								<img src="https://via.placeholder.com/300C/O" alt=""/>
 							</div>
+						</section>
+
+						<section className="contact-info">
+							<h2>Contact Information</h2>
+							<p>brianasbrock@gmail.com</p>
+							<p>770-845-2311</p>
+							<p>https://linkedin.com/in/briana-brock-63b441a6/</p>
+							<p>@BrianaBW1</p>
 						</section>
 					
 					</section>
