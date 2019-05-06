@@ -4,9 +4,29 @@ import { Link } from "gatsby"
 
 import './css/recycleATL.css'
 
-import projKicker1 from '../images/projects/recycleKicker.png'
-import projTile1 from '../images/projects/proj1Home.png'
-import pdf from '../images/pdf/Recycle_ATL.pdf';
+import designFlow from '../images/projects/flowKicker.png'
+import compare1 from '../images/projects/page/compare1.png'
+import compare2 from '../images/projects/page/compare2.png'
+import compare3 from '../images/projects/page/compare3.png'
+import proto1 from '../images/projects/page/proto1.png'
+import proto2 from '../images/projects/page/proto2.png'
+import proto3 from '../images/projects/page/proto3.png'
+import proto4 from '../images/projects/page/proto4.png'
+import proto5 from '../images/projects/page/proto5.png'
+import proto6 from '../images/projects/page/proto6.png'
+import proto7 from '../images/projects/page/proto7.png'
+import proto8 from '../images/projects/page/proto8.png'
+import wire1 from '../images/projects/page/wire1.png'
+import wire2 from '../images/projects/page/wire2.png'
+import wire3 from '../images/projects/page/wire3.png'
+import wire4 from '../images/projects/page/wire4.png'
+import wire5 from '../images/projects/page/wire5.png'
+import wire6 from '../images/projects/page/wire6.png'
+import wire7 from '../images/projects/page/wire7.png'
+import wire8 from '../images/projects/page/wire8.png'
+import wire9 from '../images/projects/page/wire9.png'
+
+
 
 
 class RecycleATL extends Component {
@@ -35,7 +55,7 @@ class RecycleATL extends Component {
                                     </ul>
                                 </div>
                                 <div className="content-image">
-                                <   img src="" alt=""/>
+                                    <img src={proto1} alt=""/>
                                 </div>
                             </div>
                         </article>
@@ -43,7 +63,7 @@ class RecycleATL extends Component {
                             <h3>Design Process</h3>
                             <div className="inner-content">
                                 <div className="content-image">
-                                    <img src="" alt=""/>
+                                    <img src={designFlow} alt=""/>
                                 </div>
                                 <div className="content-text">
                                     <ul>
@@ -77,7 +97,9 @@ class RecycleATL extends Component {
                             <h3>Competitive Analysis</h3>
                             <div className="inner-content">
                                 <div className="content-image">
-                                    <img src="" alt=""/>
+                                    <img src={compare1} alt=""/>
+                                    <img src={compare2} alt=""/>
+                                    <img src={compare3} alt=""/>
                                 </div>
                                 <div className="content-text">
                                     <ul>
@@ -193,14 +215,17 @@ class RecycleATL extends Component {
                         <article className="wireframes">
                             <h3>Wireframes</h3>
                             <div className="inner-content">
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
+                                <div className="content-image">
+                                    <img src={wire1} alt=""/>
+                                    <img src={wire2} alt=""/>
+                                    <img src={wire3} alt=""/>
+                                    <img src={wire4} alt=""/>
+                                    <img src={wire5} alt=""/>
+                                    <img src={wire6} alt=""/>
+                                    <img src={wire7} alt=""/>
+                                    <img src={wire8} alt=""/>
+                                    <img src={wire9} alt=""/>
+                                </div>
                             
                             </div>
 
@@ -218,15 +243,16 @@ class RecycleATL extends Component {
                         <article className="prototype">
                             <h3>Prototype</h3>
                             <div className="inner-content">
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                            
+                                <div className="content-image">
+                                    <img src={proto1} alt=""/>
+                                    <img src={proto2} alt=""/>
+                                    <img src={proto3} alt=""/>
+                                    <img src={proto4} alt=""/>
+                                    <img src={proto5} alt=""/>
+                                    <img src={proto6} alt=""/>
+                                    <img src={proto7} alt=""/>
+                                    <img src={proto8} alt=""/>                           
+                                </div>
                             </div>
 
 

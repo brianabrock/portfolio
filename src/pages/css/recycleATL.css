@@ -31,3 +31,23 @@
 .recycleATL-content .inner-content {
     padding:  0 20px;
 }
+
+.inner-content .content-text, 
+.inner-content .content-image {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.inner-content .content-text {
+    text-align: left;
+}
+
+.inner-content .content-image img {
+    max-height: 200px;
+    border: 1px solid #333;
+    margin: 0 5px;
+    box-shadow: 0 0 10px #999;
+    border-radius: 10px;
+}
