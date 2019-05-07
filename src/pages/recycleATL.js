@@ -1,10 +1,16 @@
 import React, { Component } from 'react'; 
 import Layout from "../components/layout"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
+import Chart from 'chart.js';
+
 
 import './css/recycleATL.css'
 
 import designFlow from '../images/projects/flowKicker.png'
+import flow2 from '../images/projects/page/flow2.png'
+import use1 from '../images/projects/page/use1.jpg'
+import use2 from '../images/projects/page/use2.png'
+import use3 from '../images/projects/page/use3.jpg'
 import compare1 from '../images/projects/page/compare1.png'
 import compare2 from '../images/projects/page/compare2.png'
 import compare3 from '../images/projects/page/compare3.png'
@@ -32,9 +38,85 @@ import wire9 from '../images/projects/page/wire9.png'
 class RecycleATL extends Component {
     
     componentDidMount() {
-        // this.projectScroll();
+        this.chartjs();
     }
 
+
+    chartjs() {
+		const age = document.getElementById('age-chart');
+		let agepie = new Chart(age, {
+			type: "pie",
+			data: {
+				labels: ["18-24", "25-34", "35-44", "45+"],
+				datasets: [
+					{
+						label: "These things...",
+						data: [2, 12, 4, 3],
+                        backgroundColor: [
+                            'rgba(0, 150, 0, .5)', 
+                            'rgba(130, 240, 144, 0.63)',
+                            'rgba(71, 223, 71, 0.5)',
+                            'rgba(33, 97, 33, 0.5)'
+                        ],
+					},
+				]
+			}
+        });
+        
+        const doYou = document.getElementById('doYou-chart');
+		let doYoupie = new Chart(doYou, {
+			type: "pie",
+			data: {
+				labels: ["Yes", "Sometimes", "No"],
+				datasets: [
+					{
+						label: "These things...",
+						data: [11, 9, 1],
+						backgroundColor: [
+                            'rgba(0, 150, 0, .5)',
+                            'rgba(153, 231, 27, 0.5)',
+                            'rgba(231, 109, 27, 0.5)'
+                        ],
+					},
+				]
+			}
+        });
+        
+        const whyNot = document.getElementById('whyNot-chart');
+		let whyNotpie = new Chart(whyNot, {
+			type: "pie",
+			data: {
+				labels: ["Not interested", "It's an inconvenience", "It's not accesible", "Other"],
+				datasets: [
+					{
+						label: "These things...",
+						data: [0, 3, 6, 1],
+						backgroundColor: [
+                            'rgba(153, 231, 27, 0.5)',
+                            'rgba(27, 231, 105, 0.5)',
+                            'rgba(223, 121, 53, 0.5)',
+                            'rgba(72, 60, 240, 0.5)'
+                        ],
+					},
+				]
+			}
+        });
+        
+        // const concerned = document.getElementById('concerned-chart');
+		// let concernedbar = new Chart(concerned, {
+		// 	type: "bar",
+		// 	data: {
+		// 		labels: ["0", "1", "2", "3", "4", "5"],
+		// 		datasets: [
+		// 			{
+		// 				label: "These things...",
+		// 				data: [0, 0, 1, 11, 5],
+		// 				backgroundColor: ['rgba(0, 150, 0, .5)'],
+		// 			},
+		// 		]
+		// 	}
+		// });
+	}
 
     render() {
         return (
@@ -84,12 +166,29 @@ class RecycleATL extends Component {
                         <article className="discovery">
                             <h3>Discovery/Research</h3>
                             <div className="inner-content">
+                                {/* <img src="" alt=""/>
                                 <img src="" alt=""/>
                                 <img src="" alt=""/>
                                 <img src="" alt=""/>
                                 <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
+                                <img src="" alt=""/> */}
+
+                                {/* <div className="chart bar">
+								    <canvas id="concerned-chart" height="400px" width="400px"></canvas>
+                                </div> */}
+                                <div className="chart">
+                                    <h4>Age Range</h4>
+								    <canvas id="age-chart" height="400px" width="400px"></canvas>
+                                </div>
+                                <div className="chart">
+                                    <h4>Do you recycle on a regular basis?</h4>
+								    <canvas id="doYou-chart" height="400px" width="400px"></canvas>
+                                </div>
+                                <div className="chart">
+                                    <h4>If not, why?</h4>
+								    <canvas id="whyNot-chart" height="400px" width="400px"></canvas>
+                                </div>
+							
                             </div>
 
                         </article>
@@ -142,8 +241,8 @@ class RecycleATL extends Component {
                         <article className="define">
                             <h3>Define/Interpret</h3>
                             <div className="inner-content">
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
+                                {/* <img src="" alt=""/> */}
+                                <img src={flow2} alt=""/>
                             </div>
 
                         </article>
@@ -187,8 +286,8 @@ class RecycleATL extends Component {
                             <h3>Persona</h3>
                             <div className="inner-content">
                                 <div className="content-text">
+                                    <h4>Max Hartwell</h4>
                                     <ul>
-                                        <li>Max Hartwell</li>
                                         <li>34 years old</li>
                                         <li>IT Support</li>
                                         <li>Lives near The Battery</li>
@@ -233,9 +332,9 @@ class RecycleATL extends Component {
                         <article className="testing">
                             <h3>Usability Testing</h3>
                             <div className="inner-content">
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
-                                <img src="" alt=""/>
+                                <img src={use1} alt=""/>
+                                <img src={use2} alt=""/>
+                                <img src={use3} alt=""/>
                                 <p>Confusion with maps, pop-ups menus, and specific pages</p>
                             </div>
 
