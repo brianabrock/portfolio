@@ -1,6 +1,6 @@
 body {
     font-family: 'Noto Sans', sans-serif;
-    max-width: 1400px;
+    /* max-width: 1400px; */
 }
 
 #___gatsby {
@@ -8,24 +8,33 @@ body {
 }
 
 .home-page .hero {
-    height: 600px;
+    height: 500px;
     width: 100%;
-    background-color: #ccc; 
+    /* background-color: #ccc;  */
+    background: url('../../images/art/lake_allatoona.jpg');
+    background-size: cover;
+    background-position: 100% 30%;
+
     /* padding: 20px; */
     /* position: relative;  */
     z-index: 0;
+    margin-bottom: 50px;
 }
 
 .home-page .brief-text {
     background: #fff; 
     /* border: 1px solid #333;  */
     z-index: 1;
-    width: 60%;
-    height: 300px;
-    margin: -200px auto 0; 
-    font: 700 42px 'Noto Sans', sans-serif; 
+    width: 85%;
+    height: auto;
+    margin: -200px auto 100px; 
+    font: 700 36px 'Noto Sans', sans-serif; 
     padding: 20px; 
     text-align: center;
+}
+
+.brief-text p {
+    margin: 0;
 }
 
 .home-page .content {
@@ -106,13 +115,13 @@ body {
 
 #kicker1 {
     margin-left: 50px;
-    transition: all 1s cubic-bezier(0.95, 0.14, 0.47, 1.21); 
+    transition: all .8s cubic-bezier(0.95, 0.14, 0.47, 1.21); 
     transform: translateX(110%);
 }
 
 #kicker2 {
     margin: -50px 50px 0 0;
-    transition: all 1s cubic-bezier(0.95, 0.14, 0.47, 1.21); 
+    transition: all .8s cubic-bezier(0.95, 0.14, 0.47, 1.21); 
     transform: translateX(-110%);
 
 }
@@ -129,6 +138,13 @@ body {
     padding: 100px 20px 80px 70px;
 }
 
+.contact-info {
+    margin-bottom: 100px; 
+}
+
+.contact-info p {
+    margin: 0;
+}
 
 
 @media (max-width: 750px) {

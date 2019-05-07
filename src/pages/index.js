@@ -9,7 +9,7 @@ import './css/index.css'
 class Home extends React.Component {
 
 	componentDidMount() {
-		this.chartjs()
+		// this.chartjs()
 		this.homeScroll()
 	}
 
@@ -62,23 +62,25 @@ class Home extends React.Component {
 
 					<section className="content">
 						<section className="brief-text">
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, voluptate?</p>
+							<p>Creative thinker dedicated to the process of creating memorable experiences through research and design.</p>
 						</section>
 
 						<section className="intro-text">
-							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ratione, tempora nisi perspiciatis illum officia fugiat explicabo, voluptatum sunt corporis similique deserunt accusantium itaque sed rerum et quidem? Fuga delectus quaerat qui iure quae laudantium provident maxime nam dignissimos. Animi <Link className="text-link" to="/projects/">projects</Link> saepe, magnam consequatur repudiandae illum eligendi, est corrupti dolores rerum modi vitae similique sapiente quod non laudantium omnis ullam iste molestiae at tenetur mollitia veniam. Accusamus corporis eius alias architecto sunt, maiores doloribus maxime officiis, nihil ducimus eos suscipit doloremque cumque voluptatum inventore quidem mollitia labore necessitatibus cum culpa? Iste voluptate minus, quos dignissimos earum atque tempora obcaecati minima.</p>
+							<p>I am an actor, craft beer enthusiast, and UX Designer. An artist at heart with a customer service background, I bring the dynamic combination of creativity and understanding to the design process of the user’s experience. See my latest <Link className="text-link" to="/projects/">projects</Link> and how I might be able to help your team on your next venture.</p>
 						</section>
 
-						<section className="followup-text">
+
+
+						{/* <section className="followup-text">
 
 							<div className="chart">
 								<canvas id="life-chart" height="400px" width="400px"></canvas>
 							</div>
 
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quaerat eum recusandae molestias! Aspernatur, iure. Ipsa, vel quae placeat saepe magni eligendi ab ex quas, magnam officiis tempora recusandae dolorem exercitationem sapiente doloribus expedita omnis totam vero possimus labore sunt odio. Doloribus <Link className="text-link" to="/art/">art</Link> perspiciatis incidunt possimus facere rerum porro, asperiores, laboriosam laborum sint reiciendis dolore eius a praesentium, dolorem similique et quos vitae enim. Labore unde consectetur qui inventore ipsa assumenda cumque sed repellendus sunt tenetur! Quos obcaecati quaerat aut.</p>
-						</section>
+						</section> */}
 
-						<section className="skill-badges">
+						{/* <section className="skill-badges">
 							<div className="badge">
 								<img src="https://via.placeholder.com/150" alt=""/>
 								<p>Lorem ipsum dolor sit amet.</p>
@@ -91,7 +93,7 @@ class Home extends React.Component {
 								<img src="https://via.placeholder.com/150" alt=""/>
 								<p>Lorem ipsum dolor sit amet.</p>
 							</div>
-						</section>
+						</section> */}
 
 						<section className="bottom-kickers">
 							<div className="kicker" id="kicker1">
@@ -102,6 +104,14 @@ class Home extends React.Component {
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, a.</p>
 								<img src="https://via.placeholder.com/300C/O" alt=""/>
 							</div>
+						</section>
+
+						<section className="contact-info">
+							<h2>Contact Information</h2>
+							<p>brianasbrock@gmail.com</p>
+							<p>770-845-2311</p>
+							<p>https://linkedin.com/in/briana-brock-63b441a6/</p>
+							<p>@BrianaBW1</p>
 						</section>
 					
 					</section>

@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import Layout from "../components/layout"
 import './css/art.css'; 
 
-import l1 from '../images/rose.jpg'
-import c1 from '../images/the_dock.jpg'
-import r1 from '../images/outoftheflame.jpg'
-import l2 from '../images/lighthouse_staircase.jpg'
-import c2 from '../images/phoenix_rising.jpg'
-import r2 from '../images/aftermath1.jpg'
-import l3 from '../images/muscle_movement.jpg'
-import c3 from '../images/water_meets_the_sky.jpg'
-import r3 from '../images/rainbow_jesus.jpg'
-import l4 from '../images/spiral_up2.jpg'
-import c4 from '../images/self_portrait.png'
-import r4 from '../images/serenity_lake.jpg'
+import l1 from '../images/art/rose.jpg'
+import c1 from '../images/art/the_dock.jpg'
+import r1 from '../images/art/outoftheflame.jpg'
+import l2 from '../images/art/lighthouse_staircase.jpg'
+import c2 from '../images/art/phoenix_rising.jpg'
+import r2 from '../images/art/aftermath1.jpg'
+import l3 from '../images/art/muscle_movement.jpg'
+import c3 from '../images/art/water_meets_the_sky.jpg'
+import r3 from '../images/art/rainbow_jesus.jpg'
+import l4 from '../images/art/spiral_up2.jpg'
+import c4 from '../images/art/self_portrait.png'
+import r4 from '../images/art/serenity_lake.jpg'
 
 class Art extends Component {
 
@@ -50,7 +50,7 @@ class Art extends Component {
                     </section>
 
                     <section className="description">
-                        <p>Say a little something here about art...</p>
+                        <p>In my spare time I use acrylics and oil for paintings and I'm also an amateur photographer. </p>
                     </section>
 
                     <section className="grid">
