@@ -1,0 +1,160 @@
+.projects-page .hero {
+    height: 500px;
+    width: 100%;
+    background-color: #ccc;
+    background: url('../../images/art/water_meets_the_sky.jpg') no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.project-tiles {
+    width: 90%;
+    height: auto;
+    margin: -350px auto 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    z-index: 2;
+
+    .project-tile {
+        width: 32%;
+        height: 300px;
+        border-radius: 20px;
+        // height: auto;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+}
+
+
+.projects-container {
+    width: 90%;
+    margin: 0 auto 100px;
+
+
+    .project {
+        margin: 20px auto 100px;
+
+        a {
+            color: #333;
+        }
+
+        .project-image {
+            display: inline-block;
+            vertical-align: top;
+            width: 55%;
+            height: 400px;
+
+            img {
+                height: 400px;
+            }
+        }
+
+        .project-description {
+            display: inline-block;
+            vertical-align: top;
+            width: 45%;
+            padding: 0 20px;
+        }
+    }
+
+
+
+}
+
+
+
+.project:nth-child(even) .project-description {
+    text-align: right;
+}
+
+.project-tags p {
+    display: inline-block;
+    width: 33%;
+    text-align:center;
+}
+
+@media (max-width:1000px) {
+    .project-tiles img {
+        height: 250px;
+        /* height: auto; */
+    }
+}
+
+@media (max-width:750px) {
+    .project-image img {
+        /* height: auto; */
+    }
+
+    .project-description h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .project-description p {
+        font-size: 14px;
+    }
+
+    .project-tiles {
+        max-width: 500px;
+    }
+    .project-tiles img {
+        margin: 5px;
+        height: 150px;
+        width: 150px;
+    }
+}
+
+/* @media (max-width:750px) {
+    .project-tiles {
+        width: 500px;
+    }
+    .project-tiles img {
+        margin: 5px;
+        height: 150px;
+        width: 150px;
+    }
+} */
+
+@media (max-width:550px) {
+
+    .project {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: -50px auto 0px;
+        padding-top: 100px;
+    }
+    .project-image {
+        width: 90%;
+        order: 1;
+        margin: 0 auto;
+    }
+    .project-description {
+        order: 2;
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: left;
+    }
+
+    .project-tags {
+        order: 3;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .project:nth-child(odd) .project-tags p {
+        text-align: left;
+    }
+    .project:nth-child(even) .project-tags p {
+        text-align: right;
+    }
+
+}
+
+
+
+

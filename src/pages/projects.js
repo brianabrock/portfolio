@@ -1,32 +1,30 @@
-import React, { Component } from 'react'; 
-import Layout from "../components/layout"
+import React, { Component } from 'react';
 import { Link } from "gatsby"
+import Layout from "../components/layout"
+import './css/projects.scss'
 
-import './css/projects.css'
-
-import projKicker1 from '../images/projects/recycleKicker.png'
-import projTile1 from '../images/projects/proj1Home.png'
-import pdf from '../images/pdf/Recycle_ATL.pdf';
+import qoinsLogo from '../images/qoins/title1.png'
+import qoinsLogo2 from '../images/qoins/title2.png'
+import recycleLogo from '../images/recycleatl/logo.png'
+import recycleLogo2 from '../images/recycleatl/logo2.png'
 
 
 class Projects extends Component {
-    
+
     componentDidMount() {
         this.projectScroll();
     }
 
     projectScroll() {
         const projects = document.querySelectorAll('.project-tile')
-        console.log(projects)
         projects.forEach(project => {
             project.addEventListener('click', function() {
-                console.log('clicked')
                 let projectDiv = document.querySelector(`.project[data-project="${this.dataset.project}"]`)
                 console.log(projectDiv)
                 // projectDiv.scrollIntoView(false);
                 projectDiv.scrollIntoView({ block: "center", behavior: 'smooth' });
             })
-        })  
+        })
     }
 
     render() {
@@ -37,12 +35,8 @@ class Projects extends Component {
                     </section>
 
                     <section className="project-tiles">
-                        {/* <img className="project-tile" data-project="1" src="https://via.placeholder.com/300C/O" alt=""/> */}
-                        <div className="project-tile" data-project="1" > 
-                            <img src={projTile1} alt=""/>
-                        </div>
-                        {/* <img className="project-tile" data-project="1" src={projTile1} alt=""/> */}
-                        <img className="project-tile" data-project="2" src="https://via.placeholder.com/300C/O" alt=""/>
+                        <img className="project-tile" data-project="1" src={qoinsLogo} alt=""/>
+                        <img className="project-tile" data-project="2" src={recycleLogo2} alt=""/>
                         <img className="project-tile" data-project="3" src="https://via.placeholder.com/300C/O" alt=""/>
                         {/* <img className="project-tile" data-project="4" src="https://via.placeholder.com/300C/O" alt=""/>
                         <img className="project-tile" data-project="5" src="https://via.placeholder.com/300C/O" alt=""/>
@@ -51,38 +45,38 @@ class Projects extends Component {
 
                     <section className="projects-container">
                         <article className="project" data-project="1">
-                            {/* <a href={pdf} target="_blank"> */}
-                            <Link to="/recycleATL">
+                            <Link to="/qoins">
                                 <div className="project-image">
-                                    {/* <img src="https://via.placeholder.com/500x400" alt=""/> */}
-                                    <img src={projKicker1} alt=""/>
+                                    <img src={qoinsLogo2} alt=""/>
                                 </div>
-                            {/* </a> */}
+                                <div className="project-description">
+                                    <h1>Qoins</h1>
+                                    <p>A financial management mobile app that rounds up your individual purchases and allows you to set up automatic payments to set money aside in order for you to pay off your debt faster</p>
+                                </div>
+                                {/* <div className="project-tags">
+                                    <p>role</p>
+                                    <p>features</p>
+                                    <p>other stuff</p>
+                                </div> */}
                             </Link>
-                            <div className="project-description">
-                                <h2>Recycle ATL Mobile App</h2>
-                                <p>Users need a way to find out where they can drop off recyclables so they can become more environmentally conscious and reduce their carbon footprint. We believe by building a mobile app that lets users know where to drop off recyclables, users will become more informed and recycle on a daily basis. </p>
-                            </div>
-                            <div className="project-tags">
-                                <p>My Role: UX Researcher & Designer</p>
-                                <p>2 Week Sprint</p>
-                                <p>Tools: Figma</p>
-                            </div>
                         </article>
 
                         <article className="project" data-project="2">
-                            <div className="project-description">
-                                <h1>TITLE</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla libero at dolor consequuntur dolores impedit pariatur recusandae maxime inventore praesentium iste sunt unde, iusto commodi esse nostrum aliquam beatae repellendus?</p>
-                            </div>
-                            <div className="project-image">
-                                <img src="https://via.placeholder.com/500x400" alt=""/>
-                            </div>
-                            <div className="project-tags">
-                                <p>role</p>
-                                <p>features</p>
-                                <p>other stuff</p>
-                            </div>
+                            <Link to="/recycleATL">
+
+                                <div className="project-description">
+                                    <h1>Recycle ATL</h1>
+                                    <p>Recycle ATL is what we call a passion project.  It comes out of my need to know where I can specifically recycle glass, since the city of Atlanta no longer recycles glass.  Not only that, but also for users living in locations that do not offer curbside recycling.</p>
+                                </div>
+                                <div className="project-image">
+                                    <img src={recycleLogo} alt=""/>
+                                </div>
+                                {/* <div className="project-tags">
+                                    <p>role</p>
+                                    <p>features</p>
+                                    <p>other stuff</p>
+                                </div> */}
+                            </Link>
                         </article>
 
                         <article className="project"  data-project="3">
@@ -93,11 +87,11 @@ class Projects extends Component {
                                 <h1>TITLE</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla libero at dolor consequuntur dolores impedit pariatur recusandae maxime inventore praesentium iste sunt unde, iusto commodi esse nostrum aliquam beatae repellendus?</p>
                             </div>
-                            <div className="project-tags">
+                            {/* <div className="project-tags">
                                 <p>role</p>
                                 <p>features</p>
                                 <p>other stuff</p>
-                            </div>
+                            </div> */}
                         </article>
                     </section>
                 </div>

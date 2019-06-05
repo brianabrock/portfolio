@@ -1,6 +1,6 @@
-import React, { Component } from 'react'; 
+import React, { Component } from 'react';
 import Layout from "../components/layout"
-import './css/art.css'; 
+import './css/art.css';
 
 import l1 from '../images/art/rose.jpg'
 import c1 from '../images/art/the_dock.jpg'
@@ -23,34 +23,34 @@ class Art extends Component {
 
     artScroll() {
         const wh = window.innerHeight;
-        const imgElems = document.querySelectorAll('img'); 
+        const imgElems = document.querySelectorAll('img');
 
         window.addEventListener('scroll', function(e) {
-            let scrollPosBottom = window.scrollY + wh; 
-        
+            let scrollPosBottom = window.scrollY + wh;
+
             imgElems.forEach( (img, i) => {
                 if(img.offsetTop < scrollPosBottom) {
-                    // console.log('ONscreen'); 
-                    img.classList.add('active'); 
+                    // console.log('ONscreen');
+                    img.classList.add('active');
                 } else {
-                    img.classList.remove('active'); 
-                    // console.log('offscreen'); 
+                    img.classList.remove('active');
+                    // console.log('offscreen');
                 }
-            }) 
-        })    
+            })
+        })
     }
 
     render() {
         return (
             <Layout>
                 <div className="art-page">
-                    
+
                     <section className="hero">
                         <h1>Art...makes me happy</h1>
                     </section>
 
                     <section className="description">
-                        <p>In my spare time I use acrylics and oil for paintings and I'm also an amateur photographer. </p>
+                        {/* <p>Say a little something here about art...</p> */}
                     </section>
 
                     <section className="grid">
@@ -67,12 +67,12 @@ class Art extends Component {
                         <img className="grid-item" src={l4} alt=""/>
                         <img className="grid-item" src={c4} alt=""/>
                         <img className="grid-item" src={r4} alt=""/>
-                        
-                    </section>      
+
+                    </section>
                 </div>
             </Layout>
         )
     }
 }
 
-export default Art; 
+export default Art;
