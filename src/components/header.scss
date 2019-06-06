@@ -1,0 +1,60 @@
+.header {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    max-width: 1400px;
+    z-index: 3;
+    transition: all .5s ease-in-out;
+    padding: 15px;
+
+
+    h1 {
+        display: inline-block;
+        /* font-family: 'Righteous', cursive; */
+        font: 400 1.8rem 'Righteous', cursive;
+
+        a {
+            color: #fff;
+            transition: all .5s ease-in-out;
+
+        }
+    }
+
+    .header-container {
+        position: relative;
+        max-width: 1350px;
+        margin: 0 auto;
+    }
+
+    &.scrolled {
+        background: #fff;
+
+        h1 a, .header-links a {
+            color: #333;
+
+        }
+
+        .header-links a:hover {
+            color: rgb(121, 7, 96);
+
+        }
+    }
+
+    .header-links {
+        float: right;
+        padding: 8px;
+
+        a {
+            padding: 10px 10px;
+            font: 400 1rem 'Noto Sans', sans-serif;
+            text-decoration: none;
+            transition: all .5s ease-in-out;
+            color: #fff;
+
+            &:hover {
+                color: rgb(245, 176, 230);
+            }
+        }
+    }
+}
+
