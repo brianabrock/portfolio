@@ -327,6 +327,14 @@
                                 img {
                                     vertical-align: top;
                                     padding: 20px;
+
+                                    &:last-child {
+                                        padding: 130px 20px;
+
+                                        @media (max-width: 732px) {
+                                            padding: 20px;
+                                        }
+                                    }
                                 }
                             }
 
