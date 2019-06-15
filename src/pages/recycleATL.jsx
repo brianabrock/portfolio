@@ -8,26 +8,49 @@ import graph2 from '../images/recycleatl/graph2.png'
 import graph3 from '../images/recycleatl/graph3.png'
 import img1 from '../images/recycleatl/img1.png'
 import img2 from '../images/recycleatl/img2.png'
-import img3 from '../images/recycleatl/img3.png'
+// import img3 from '../images/recycleatl/img3.png'
 import img4 from '../images/recycleatl/img4.png'
 import img5 from '../images/recycleatl/img5.png'
-import img6 from '../images/recycleatl/img6.png'
-import img7 from '../images/recycleatl/img7.png'
-import img8 from '../images/recycleatl/img8.png'
-import img9 from '../images/recycleatl/img9.png'
+// import img6 from '../images/recycleatl/img6.png'
+// import img7 from '../images/recycleatl/img7.png'
+// import img8 from '../images/recycleatl/img8.png'
+// import img9 from '../images/recycleatl/img9.png'
+import img10 from '../images/recycleatl/img10.png'
+import img11 from '../images/recycleatl/img11.png'
+import img12 from '../images/recycleatl/img12.png'
+import img13 from '../images/recycleatl/img13.png'
 import logo from '../images/recycleatl/logo.png'
-import logo2 from '../images/recycleatl/logo2.png'
+// import logo2 from '../images/recycleatl/logo2.png'
+import logo3 from '../images/recycleatl/updates/logo3.png'
 import photo1 from '../images/recycleatl/photo1.png'
-import photo2 from '../images/recycleatl/photo2.png'
+// import photo2 from '../images/recycleatl/photo2.png'
 import photo3 from '../images/recycleatl/photo3.png'
 import photo4 from '../images/recycleatl/photo4.png'
 import use2 from '../images/recycleatl/use2.png'
 import use3 from '../images/recycleatl/use3.png'
 
+<<<<<<< HEAD
+=======
+import mockups from '../images/recycleatl/updates/mockups.png'
+import iphone from '../images/recycleatl/updates/p2_iPhone.png'
+import chart from '../images/recycleatl/updates/p6_chart.png'
+import chart2 from '../images/recycleatl/updates/p6_chart2.png'
+import edu from '../images/recycleatl/updates/p10_edu.png'
+import map from '../images/recycleatl/updates/p10_map.png'
+import tips from '../images/recycleatl/updates/p10_tips.png'
+import wireframes from '../images/recycleatl/updates/wireframes.png'
+
+import c1 from '../images/recycleatl/updates/c1.png'
+import c2 from '../images/recycleatl/updates/c2.png'
+import c3 from '../images/recycleatl/updates/c3.png'
+import c4 from '../images/recycleatl/updates/c4.png'
+
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
 
 const Recycle = () => (
     <Layout>
         <div className="recycle-atl-page">
+<<<<<<< HEAD
             <section className="hero"></section>
             <section className="slides">
 
@@ -49,6 +72,26 @@ const Recycle = () => (
                     </div>
 
                 </div>
+=======
+            <section className="hero">
+                <img src={logo3} alt=""/>
+                <p>Recycle ATL is a mobile application designed to locate recycling drop-off locations and offers educational articles on environmental issues</p>
+
+
+            </section>
+            <section className="slides">
+
+                {/* <div className="slide slide1">
+                    <div className="container">
+
+                        <div className="r">
+                        </div>
+                        <div className="contain">
+
+                        </div>
+                    </div>
+                </div> */}
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
                 <div className="slide slide2">
                     <div className="container">
                         <div className="contain">
@@ -56,8 +99,13 @@ const Recycle = () => (
                                 <img src={photo1} alt=""/>
                             </div>
                             <div className="r">
+<<<<<<< HEAD
                                 <img className="logo" src={logo2} alt=""/>
                                 <img src={img2} alt=""/>
+=======
+                                <img className="logo" src={logo3} alt=""/>
+                                <img src={iphone} alt=""/>
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
                             </div>
                         </div>
 
@@ -75,6 +123,7 @@ const Recycle = () => (
                         <div className="text1">
                             <p>This project was a 2 week sprint.  The first week dedicated to research and synthesis, and the second week focused on ideating, wireframes, usability testing, iterating, and prototyping and final mockups</p>
                         </div>
+<<<<<<< HEAD
                         <h4>The Progess</h4>
                         <div className="bubbles">
                             <div className="bubble">
@@ -91,6 +140,24 @@ const Recycle = () => (
                             </div>
                             <div className="bubble">
                                 <img src="" alt=""/>
+=======
+                        <h4>The Process</h4>
+                        <div className="bubbles">
+                            <div className="bubble">
+                                <img src={c1} alt=""/>
+                                <p>Research</p>
+                            </div>
+                            <div className="bubble">
+                                <img src={c2} alt=""/>
+                                <p>Synthesis & Ideation</p>
+                            </div>
+                            <div className="bubble">
+                                <img src={c3} alt=""/>
+                                <p>Wireframe & Testing</p>
+                            </div>
+                            <div className="bubble">
+                                <img src={c4} alt=""/>
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
                                 <p>Iteration & Prototyping</p>
                             </div>
                         </div>
@@ -136,14 +203,25 @@ const Recycle = () => (
                                 <p>Negatives of the many features is that it feels overwhelming just looking at it</p>
                                 <p>Recycle Right is another great app with similar features, only available in Australia</p>
                             </div>
+<<<<<<< HEAD
                             <img src={img4} alt=""/>
+=======
+                            <img src={chart2} alt=""/>
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
                         </div>
                         <div className="text4">
                             <p className="section-subheading">Interviews:</p>
                             <p>I conducted interviews with 6 participants of various backgrounds who did and did not recycle on a regular basis, not targeted to a specific audience; 4 participants recycled, 2 did not</p>
                             <div className="contain">
+<<<<<<< HEAD
                                 <img src={img5} alt=""/>
                                 <img src={photo3} alt=""/>
+=======
+                                <div className="images">
+                                    <img src={img5} alt=""/>
+                                    <img src={photo3} alt=""/>
+                                </div>
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
 
                             </div>
                         </div>
@@ -152,6 +230,7 @@ const Recycle = () => (
                 <div className="slide slide5">
                     <div className="container">
                         <h3 className="section-heading">Affinity Mapping & Synthesis</h3>
+<<<<<<< HEAD
                         <img src={flow2} alt=""/>
                         <div className="text1">
                             <p>Reasons for not recycling include:</p>
@@ -170,6 +249,31 @@ const Recycle = () => (
                                 <li>It’s part of their everyday life</li>
                                 <li>Believes in saving the planet</li>
                             </ul>
+=======
+                        <div className="images">
+                            <img src={flow2} alt=""/>
+                        </div>
+                        <div className="contain">
+                            <div className="text1">
+                                <p>Reasons for not recycling include:</p>
+                                <ul>
+                                    <li>Inconvenient</li>
+                                    <li>Doesn’t know where to recycle</li>
+                                    <li>Doesn’t think about it</li>
+                                </ul>
+                            </div>
+                            <div className="text2">
+                                <p>Reasons for recycling include:</p>
+                                <ul>
+                                    <li>Good for the environment</li>
+                                    <li>Keeps trash out of landfills</li>
+                                    <li>They feel it’s their responsibility</li>
+                                    <li>It’s part of their everyday life</li>
+                                    <li>Believes in saving the planet</li>
+                                </ul>
+                            </div>
+
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
                         </div>
                         <div className="text3">
                             <p>From the findings from sythensis, I came up with our persona, with his pain points and needs</p>
@@ -179,7 +283,11 @@ const Recycle = () => (
                                     <img src={photo4} alt=""/>
                                     <div className="textbox">
                                         <ul>
+<<<<<<< HEAD
                                             <li>Max Hartwell</li>
+=======
+                                            <li className="tite">Max Hartwell</li>
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
                                             <li>35 years old</li>
                                             <li>IT Support</li>
                                             <li>Lives near The Battery</li>
@@ -192,7 +300,11 @@ const Recycle = () => (
                                         <p>He’s frustrated with the lack of information on what is recyclable and where to take them. He feels guilty that he still chooses Bud Lite in the bottle, even though he now knows glass is not recyclable in ATL </p>
                                     </div>
                                     <div className="textbox">
+<<<<<<< HEAD
                                         <p>Goals:</p>
+=======
+                                        <p className="tite">Goals:</p>
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
                                         <ul>
                                             <li>Know more about recycling</li>
                                             <li>Find out where to take glass</li>
@@ -200,7 +312,11 @@ const Recycle = () => (
                                         </ul>
                                     </div>
                                     <div className="textbox">
+<<<<<<< HEAD
                                         <p>Pain Points:</p>
+=======
+                                        <p className="tite">Pain Points:</p>
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
                                         <ul>
                                             <li>Lack of information</li>
                                             <li>Doesn’t know where to take recycles</li>
@@ -219,12 +335,26 @@ const Recycle = () => (
                             <p>We believe by building a mobile app that lets users know where to drop off recyclables, users will become more informed and recycle on a daily basis. We will know this to be true, when users use the app to locate drop off locations.</p>
                         </div>
                         <div className="text6">
+<<<<<<< HEAD
                             <p className="section-subheading">  Product Key Features</p>
                             <ul>
                                 <li>Drop-off locator- search by zip code or specific item</li>
                                 <li>Education- learn about recycling best practices</li>
                                 <li>Daily Tips- with option for push notification</li>
                             </ul>
+=======
+                            <p className="section-subheading">Product Key Features</p>
+                            <ul>
+                                <li><span>Drop-off locator-</span> search by zip code or specific item</li>
+                                <li><span>Education-</span> learn about recycling best practices</li>
+                                <li><span>Daily Tips-</span> with option for push notification</li>
+                            </ul>
+                            <div className="images">
+                                <img src={map} alt=""/>
+                                <img src={edu} alt=""/>
+                                <img src={tips} alt=""/>
+                            </div>
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
                         </div>
                     </div>
                 </div>
@@ -232,7 +362,12 @@ const Recycle = () => (
                     <div className="container">
                         <h3 className="section-heading">Wireframes</h3>
                         <div className="wireframes">
+<<<<<<< HEAD
                             <img src={img6} alt=""/>
+=======
+                            <img src={wireframes} alt=""/>
+                            {/* <img className="bottomImg" src={img11} alt=""/> */}
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
                         </div>
                     </div>
                 </div>
@@ -252,9 +387,15 @@ const Recycle = () => (
                 <div className="slide slide8">
                     <div className="container">
                         <h3 className="section-heading">Final Mockups</h3>
+<<<<<<< HEAD
                         <img src={img7} alt=""/>
                         <img src={img8} alt=""/>
                         <img src={img9} alt=""/>
+=======
+                        {/* <img src={img13} alt=""/>
+                        <img src={img12} alt=""/> */}
+                        <img src={mockups} alt=""/>
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
                     </div>
                 </div>
                 <div className="slide slide9">
@@ -265,7 +406,11 @@ const Recycle = () => (
                             <li>Check-In to drop-off locations for points</li>
                             <li>Recycle pick up like UBER for recycling</li>
                         </ul>
+<<<<<<< HEAD
                         <img src={logo2} alt=""/>
+=======
+                        <img src={logo3} alt=""/>
+>>>>>>> 0c333fb6138de1d41a97ab5d7201438e9485392e
                     </div>
                 </div>
 

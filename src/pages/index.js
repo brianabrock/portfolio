@@ -9,6 +9,7 @@ import qoinsLogo from '../images/qoins/title1.png'
 import qoinsLogo2 from '../images/qoins/title2.png'
 import recycleLogo from '../images/recycleatl/logo.png'
 import recycleLogo2 from '../images/recycleatl/logo2.png'
+import recycleLogo3 from '../images/recycleatl/logo3.png'
 
 class Home extends React.Component {
 
@@ -45,7 +46,7 @@ class Home extends React.Component {
 
 						<section className="project-tiles">
 							<img className="project-tile" data-project="1" src={qoinsLogo} alt=""/>
-							<img className="project-tile" data-project="2" src={recycleLogo2} alt=""/>
+							<img className="project-tile" data-project="2" src={recycleLogo3} alt=""/>
 							<img className="project-tile" data-project="3" src="https://via.placeholder.com/300C/O" alt=""/>
 							{/* <img className="project-tile" data-project="4" src="https://via.placeholder.com/300C/O" alt=""/>
 							<img className="project-tile" data-project="5" src="https://via.placeholder.com/300C/O" alt=""/>
