@@ -1,9 +1,11 @@
 .projects-page .hero {
-    height: 500px;
+    height: 400px;
     width: 100%;
     background-color: #ccc;
-    background: url('../../images/art/water_meets_the_sky.jpg') no-repeat;
-    background-size: 100% 100%;
+    background: url('../../images/art/art1-1.jpg') no-repeat;
+    background: linear-gradient(to bottom, #333, #fff);
+    background-size: cover;
+
     position: relative;
     @media (max-width: 750px) {
         height: 300px;
@@ -13,29 +15,44 @@
 .project-tiles {
     width: 90%;
     height: auto;
-    margin: -350px auto 100px;
+    margin: -250px auto 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     position: relative;
     z-index: 2;
 
-    @media (max-width: 750px) {
-        margin: -150px auto 100px;
+    img {
+        box-shadow: 0 0 15px #ccc;
 
     }
 
+    @media (max-width: 750px) {
+        margin: -150px auto 100px;
+    }
+
+    @media (max-width: 450px) {
+        margin: -150px auto 100px;
+    }
+
     .project-tile {
-        width: 32%;
-        height: 300px;
+        height: 200px;
+        width: 200px;
+        max-height: 300px;
         border-radius: 20px;
         // height: auto;
-        margin-bottom: 15px;
+        margin: 0 10px 15px;
         cursor: pointer;
+        background: #fff;
 
         @media (max-width: 750px) {
             height: 100px;
-            width: 30%;
+            width: 100px;
+        }
+
+        @media (max-width: 450px) {
+            height: 90px;
+            width: 90px;
         }
     }
 }
@@ -52,23 +69,36 @@
         a {
             color: #333;
             text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
 
+            @media (max-width: 750px) {
+                flex-direction: column;
+
+            }
         }
 
         .project-image {
             display: inline-block;
             vertical-align: top;
             width: 55%;
-            height: 400px;
+            height: auto;
 
             img {
-                height: 400px;
+                height: auto;
             }
 
             @media (max-width: 750px) {
                 display: block;
                 width: 100%;
                 text-align: center;
+                order: 1;
+            }
+
+            @media (max-width: 550px) {
+                // height: 300px;
+
             }
         }
 
@@ -81,6 +111,9 @@
             @media (max-width: 750px) {
                 display: block;
                 width: 100%;
+                padding: 20px 20px 0;
+                order: 2;
+
                 // text-align: center;
             }
         }

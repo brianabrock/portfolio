@@ -32,7 +32,7 @@ module.exports = {
         resolve: 'gatsby-plugin-web-font-loader',
         options: {
             google: {
-                families: ['Righteous', 'Noto Sans', 'Risque', 'IBM Plex Serif']
+                families: ['Righteous', 'Noto Sans', 'Risque', 'IBM Plex Serif', 'Montserrat']
             }
         }
     }

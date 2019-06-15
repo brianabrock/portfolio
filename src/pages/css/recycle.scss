@@ -1,7 +1,8 @@
 .recycle-atl-page {
 
     .hero {
-        background: #ACD7A6;
+        // background: #ACD7A6;
+        background: linear-gradient(to bottom, #ACD7A6, #fff);
         text-align: center;
         padding: 100px 0 40px;
 
@@ -64,6 +65,7 @@
 
             &.slide1 {
                 background: #ACD7A6;
+
                 padding-top: 200px;
 
                 .container {
@@ -138,6 +140,8 @@
                 .container {
                     .contain {
                         background: #ACD7A6;
+                        background: linear-gradient(to bottom right, #ACD7A6, #ffffff);
+
                         position: relative;
                         padding: 20px;
                         border-radius: 20px;
@@ -240,6 +244,8 @@
                         margin-top: 30px;
                         text-align: center;
                         background: #ACD7A6;
+                        background: linear-gradient(to bottom right, #ACD7A6, #ffffff);
+
                         padding: 20px;
                         border-radius: 20px;
                         img {
@@ -260,6 +266,8 @@
                         margin-top: 30px;
                         text-align: center;
                         background: #ACD7A6;
+                        background: linear-gradient(to bottom right, #ACD7A6, #ffffff);
+
                         padding: 20px;
                         border-radius: 20px;
                     }
@@ -267,6 +275,8 @@
                         margin-top: 30px;
                         text-align: center;
                         background: #ACD7A6;
+                        background: linear-gradient(to bottom right, #ACD7A6, #ffffff);
+
                         padding: 20px;
                         border-radius: 20px;
                         p {
@@ -378,6 +388,8 @@
 
                     .persona {
                         background: #ACD7A6;
+                        background: linear-gradient(to bottom right, #ACD7A6, rgb(203, 230, 199));
+
                         padding: 20px;
                         border-radius: 20px;
                         .textbox {
@@ -488,6 +500,8 @@
                         }
                         .imgs {
                             background: #ACD7A6;
+                            background: linear-gradient(to bottom right, #ACD7A6, #ffffff);
+
                             border-radius: 20px;
                             padding: 20px;
                             text-align: center;

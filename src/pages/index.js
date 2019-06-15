@@ -8,8 +8,8 @@ import './css/index.scss'
 import qoinsLogo from '../images/qoins/title1.png'
 import qoinsLogo2 from '../images/qoins/title2.png'
 import recycleLogo from '../images/recycleatl/logo.png'
-import recycleLogo2 from '../images/recycleatl/logo2.png'
 import recycleLogo3 from '../images/recycleatl/logo3.png'
+import comingSoon from '../images/projects/coming-soon.png'
 
 class Home extends React.Component {
 
@@ -47,7 +47,7 @@ class Home extends React.Component {
 						<section className="project-tiles">
 							<img className="project-tile" data-project="1" src={qoinsLogo} alt=""/>
 							<img className="project-tile" data-project="2" src={recycleLogo3} alt=""/>
-							<img className="project-tile" data-project="3" src="https://via.placeholder.com/300C/O" alt=""/>
+							<img className="project-tile" data-project="3" src={comingSoon} alt=""/>
 							{/* <img className="project-tile" data-project="4" src="https://via.placeholder.com/300C/O" alt=""/>
 							<img className="project-tile" data-project="5" src="https://via.placeholder.com/300C/O" alt=""/>
 							<img className="project-tile" data-project="6" src="https://via.placeholder.com/300C/O" alt=""/> */}
@@ -99,11 +99,11 @@ class Home extends React.Component {
 
 							<article className="project"  data-project="3">
 								<div className="project-image">
-									<img src="https://via.placeholder.com/500x400" alt=""/>
+									<img src={comingSoon} alt=""/>
 								</div>
 								<div className="project-description">
-									<h1>TITLE</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla libero at dolor consequuntur dolores impedit pariatur recusandae maxime inventore praesentium iste sunt unde, iusto commodi esse nostrum aliquam beatae repellendus?</p>
+									<h1>Coming Soon</h1>
+									<p>Check back soon to see my upcoming project!</p>
 								</div>
 								{/* <div className="project-tags">
 									<p>role</p>
