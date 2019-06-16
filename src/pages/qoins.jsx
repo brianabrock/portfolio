@@ -119,11 +119,11 @@ const Qoins = () => (
                     <div className="tags">
                         <div className="tag">
                             <img src={img10} alt=""/>
-                            <p>Identification</p>
+                            <p>Identification Verification</p>
                         </div>
                         <div className="tag">
                             <img src={img11} alt=""/>
-                            <p>Set up your Creditor/Lender</p>
+                            <p>Set up your Creditor/ Lender</p>
                         </div>
                         <div className="tag">
                             <img src={img12} alt=""/>
@@ -217,9 +217,12 @@ const Qoins = () => (
             <section className="qoins7">
                 <p className="heading">QOINS existing user flow</p>
 
-                <img className="wire-desk" src={img17desk} alt=""/>
-                <img className="wire-tab" src={img17tab} alt=""/>
-                <img className="wire-mob" src={img17mob} alt=""/>
+                <div className="images">
+                    <img className="wire-desk" src={img17desk} alt=""/>
+                    <img className="wire-tab" src={img17tab} alt=""/>
+                    <img className="wire-mob" src={img17mob} alt=""/>
+                </div>
+
 
                 <p className="info">The on boarding process takes 20 screens to get to the homepage, with 2 separate points where adding financial lender adds 3 more screens and the funding source can add up to 10 additional screens depending on the financial institution</p>
             </section>
@@ -269,13 +272,15 @@ const Qoins = () => (
             <section className="qoins10">
                 <div className="frame">
                     <div className="col col-l">
-                        <img src={img21} alt=""/>
-                        <div className="text">
-                            <p>Age: 29</p>
-                            <p>Occupation: Registered Nurse</p>
-                            <p>Status: Engaged</p>
-                            <p>Location: Marietta, Ga</p>
-                            <p>Salary: $55,000</p>
+                        <div className="container">
+                            <img src={img21} alt=""/>
+                            <div className="text">
+                                <p>Age: 29</p>
+                                <p>Occupation: Registered Nurse</p>
+                                <p>Status: Engaged</p>
+                                <p>Location: Marietta, Ga</p>
+                                <p>Salary: $55,000</p>
+                            </div>
                         </div>
                     </div>
                     <div className="col col-r">
