@@ -319,9 +319,11 @@ const Qoins = () => (
                     <li>A progress bar is added to “Let’s Make a Payment” indicating how far along users are in the process of signing up</li>
                     <li>Additional information is added to “Smart Savings” and “Round Up” page</li>
                 </ul>
-                <img className="iterate-desk" src={iteratedesk} alt=""/>
-                <img className="iterate-tab" src={iteratetab} alt=""/>
-                <img className="iterate-mob" src={iteratemob} alt=""/>
+                <div className="image">
+                    <img className="iterate-desk" src={iteratedesk} alt=""/>
+                    <img className="iterate-tab" src={iteratetab} alt=""/>
+                    <img className="iterate-mob" src={iteratemob} alt=""/>
+                </div>
             </section>
 
             <section className="divide"></section>
