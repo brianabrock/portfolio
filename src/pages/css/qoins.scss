@@ -5,6 +5,11 @@
 
     section {
         margin: 20px auto;
+        padding: 10px;
+    }
+
+    div {
+        margin: 0 auto;
     }
 
     p {
@@ -16,6 +21,7 @@
     .heading {
         font-family: 'Montserrat', sans-serif;
         font-size: 26px;
+        margin-bottom: 30px;
     }
 
     .up {
@@ -30,11 +36,12 @@
         background: #1F98FF;
         min-height: 26px;
         height: auto;
-        width: 90%;
+        width: 92%;
         color: #fff;
 
         &.main {
             width: 100%;
+            padding: 10px;
         }
     }
 
@@ -44,10 +51,327 @@
         }
     }
 
+    .col {
+        display: inline-block;
+        vertical-align: top;
+    }
+
 
     .qoins1 {
+        padding: 10px 4%;
+
+        .top {
+            max-width: 980px;
+            margin: 0 auto;
+            .col-l {
+                width: 55%;
+                text-align: center;
+                margin-top: 30px;
+                img {
+                    width: 40%;
+                }
+                p {
+                    margin: 0 auto 20px;
+                    width: 30%;
+                    width: 275px;
+                    font-size: 20px;
+                    &:last-child {
+                        width: 60%;
+                        width: 455px;
+                    }
+                }
+            }
+            .col-r {
+                width: 45%;
+                img {
+                    width: 72%;
+                }
+            }
+        }
+
+        .bottom {
+            max-width: 1150px;
+            margin: 0 auto;
+            .heading {
+                text-align: center;
+                margin-bottom: 50px;
+
+            }
+            .team {
+                max-width: 830px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-evenly;
+                .member {
+                    width: 175px;
+
+
+                    img {
+
+                    }
+                    p {
+
+                    }
+                }
+            }
+
+            .info {
+                margin: 50px auto 100px;
+                text-align:center;
+                width: 85%;
+            }
+        }
+    }
+
+    .divide1.divide {
+        padding: 20px;
+        text-align: center;
+
 
     }
+
+    .qoins2 {
+        text-align: center;
+        max-width: 1350px;
+        padding: 10px 4%;
+
+        .info {
+            margin: 0 auto 50px;
+        }
+
+        .tags {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 50px auto 100px;
+            .tag {
+                display: inline-block;
+                vertical-align: top;
+                img {
+                    width: 160px;
+                }
+            }
+        }
+
+        .box {
+            background: #1F98FF;
+            width: 85%;
+            margin-bottom: 40px;
+            padding: 40px;
+            color: #fff;
+            p {
+                margin-bottom: 20px;
+            }
+            .tags {
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+                margin: 50px auto 0;
+                .tag {
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 250px;
+                    img {
+                        width: 175px;
+                        filter: contrast(200%);
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .divide.divide2 {
+        padding: 20px 100px 10px;
+        .heading {
+            text-align: center;
+        }
+
+        p {
+            &:nth-child(odd) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .qoins3 {
+        max-width: 1275px;
+        padding: 10px 4%;
+
+        .col-l {
+            width: 35%;
+            margin-right: 5%;
+            .heading {
+                margin: 20px auto 30px;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+        }
+
+        .col-r {
+            width: 60%;
+            img {
+                border: 1px solid #707070;
+                max-width: 895px;
+                width: 100%;
+                height: 95%;
+            }
+        }
+    }
+
+    .qoins4 {
+        // max-width: 1175px;
+        padding: 80px 4%;
+        display: flex;
+        justify-content: space-between;
+        .col-l {
+            // width: 50%;
+            padding-right: 50px;
+
+            p:not(.heading) {
+                margin-bottom: 20px;
+            }
+        }
+
+        .col-r {
+            // width: 50%;
+            img {
+                max-width: 620px;
+                // width: 100%;
+                width: 620px;
+            }
+        }
+    }
+
+    .qoins5 {
+        padding: 20px 50px;
+        p:not(.heading) {
+            margin-bottom: 20px;
+        }
+    }
+
+    .qoins6 {
+        padding: 20px 50px;
+
+        .col-l {
+            width: 40%;
+
+            p:not(.heading) {
+                margin-bottom: 20px;
+            }
+        }
+
+        .col-r {
+            width: 60%;
+            text-align: center;
+            .top {
+                img {
+                    width: 80%;
+                    height: 370px;
+                }
+            }
+
+            .bottom {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .qoins7 {
+        padding: 10px 4%;
+        .heading {
+            text-align: center;
+        }
+
+        .wire-desk {}
+        .wire-tab {
+            display: none;
+        }
+        .wire-mob {
+            display: none;
+        }
+
+        .info {
+            width: 80%;
+            margin: 40px auto 20px;
+            text-align: center;
+
+        }
+    }
+
+    .qoins8 {
+        padding: 30px 4%;
+        // display: flex;
+        // justify-content: space-between;
+        .col-l {
+            width: 30%;
+            margin-right: 5%;
+            p:not(.heading) {
+                margin-bottom: 20px;
+            }
+
+        }
+
+        .col-r {
+            width: 65%;
+            .top {
+                display: flex;
+                justify-content: space-between;
+                img {
+                    max-width: 420px;
+                    width: 50%;
+                    height: 290px;
+                    display: inline-block;
+                    object-fit: cover;
+
+                    &:first-child {
+                        margin-right: 10px;
+                    }
+                }
+
+            }
+            .bottom {
+                margin-top: 50px;
+            }
+        }
+    }
+
+    .qoins9 {
+        padding: 10px 4%;
+        text-align: center;
+        p {
+            margin-bottom: 20px;
+        }
+
+    }
+
+    .divide3.divide {
+        text-align: center;
+        padding: 30px;
+        p {
+            margin: 0 auto;
+        }
+    }
+    .qoins10 {}
+
+    .qoins11 {
+
+        .iterate-desk {}
+        .iterate-tab {
+            display: none;
+        }
+        .iterate-mob {
+            display: none;
+        }
+    }
+
+    .qoins12 {}
+
+    .qoins13 {}
 
 
 

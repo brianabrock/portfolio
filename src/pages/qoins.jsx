@@ -62,8 +62,8 @@ const Qoins = () => (
                     </div>
                 </div>
                 <div className="bottom">
+                    <p className="heading un">Meet the Team</p>
                     <div className="team">
-                        <p className="heading un">Meet the Team</p>
                         <div className="member">
                             <img src={img3} alt=""/>
                             <p>Morgan Breier</p>
@@ -94,37 +94,41 @@ const Qoins = () => (
                 <p className="heading up">What is Qoins?</p>
                 <p className="info">A financial management mobile app that rounds up your individual purchases and allows you to set up automatic payments to set money aside in order for you to pay off your debt faster.</p>
                 <p className="heading up">How Qoins Works</p>
-                <div className="tag">
-                    <img src={img6} alt=""/>
-                    <p>Round-Up</p>
-                </div>
-                <div className="tag">
-                    <img src={img7} alt=""/>
-                    <p>Smart-Savings</p>
-                </div>
-                <div className="tag">
-                    <img src={img8} alt=""/>
-                    <p>Set Money Aside</p>
-                </div>
-                <div className="tag">
-                    <img src={img9} alt=""/>
-                    <p>Pay Off Debt</p>
+                <div className="tags">
+                    <div className="tag">
+                        <img src={img6} alt=""/>
+                        <p>Round-Up</p>
+                    </div>
+                    <div className="tag">
+                        <img src={img7} alt=""/>
+                        <p>Smart-Savings</p>
+                    </div>
+                    <div className="tag">
+                        <img src={img8} alt=""/>
+                        <p>Set Money Aside</p>
+                    </div>
+                    <div className="tag">
+                        <img src={img9} alt=""/>
+                        <p>Pay Off Debt</p>
+                    </div>
                 </div>
 
                 <div className="box">
                     <p>Qoins has over 60,000 downloads, but only 12,000 active users</p>
                     <p>Qoins measure of success is a 3 step process:</p>
-                    <div className="tag">
-                        <img src={img10} alt=""/>
-                        <p></p>
-                    </div>
-                    <div className="tag">
-                        <img src={img11} alt=""/>
-                        <p></p>
-                    </div>
-                    <div className="tag">
-                        <img src={img12} alt=""/>
-                        <p></p>
+                    <div className="tags">
+                        <div className="tag">
+                            <img src={img10} alt=""/>
+                            <p>Identification</p>
+                        </div>
+                        <div className="tag">
+                            <img src={img11} alt=""/>
+                            <p>Set up your Creditor/Lender</p>
+                        </div>
+                        <div className="tag">
+                            <img src={img12} alt=""/>
+                            <p>Set up your Funding Source</p>
+                        </div>
                     </div>
                 </div>
 
@@ -315,9 +319,9 @@ const Qoins = () => (
                     <li>A progress bar is added to “Let’s Make a Payment” indicating how far along users are in the process of signing up</li>
                     <li>Additional information is added to “Smart Savings” and “Round Up” page</li>
                 </ul>
-                <img src={iteratedesk} alt=""/>
-                <img src={iteratetab} alt=""/>
-                <img src={iteratemob} alt=""/>
+                <img className="iterate-desk" src={iteratedesk} alt=""/>
+                <img className="iterate-tab" src={iteratetab} alt=""/>
+                <img className="iterate-mob" src={iteratemob} alt=""/>
             </section>
 
             <section className="divide"></section>
