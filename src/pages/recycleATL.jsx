@@ -195,7 +195,7 @@ const Recycle = () => (
 
                         </div>
                         <div className="text3">
-                            <p>From the findings from sythensis, I came up with our persona, with his pain points and needs</p>
+                            <p>From the findings from synthesis, I came up with our persona, with his pain points and needs</p>
                             <p className="section-subheading">Persona:</p>
                             <div className="persona">
                                 <div className="l">

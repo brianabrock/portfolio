@@ -11,6 +11,10 @@ import recycleLogo from '../images/recycleatl/logo.png'
 import recycleLogo3 from '../images/recycleatl/logo3.png'
 import comingSoon from '../images/projects/coming-soon.png'
 
+import linkedin from '../images/linked.png'
+import twitter from '../images/twitter.png'
+import gmail from '../images/gmail.png'
+
 class Home extends React.Component {
 
 	componentDidMount() {
@@ -44,14 +48,11 @@ class Home extends React.Component {
 							<p>A creative thinker and artist dedicated to the user centered process of research and design</p>
 						</section>
 
-						<section className="project-tiles">
+						{/* <section className="project-tiles">
 							<img className="project-tile" data-project="1" src={qoinsLogo} alt=""/>
 							<img className="project-tile" data-project="2" src={recycleLogo3} alt=""/>
 							<img className="project-tile" data-project="3" src={comingSoon} alt=""/>
-							{/* <img className="project-tile" data-project="4" src="https://via.placeholder.com/300C/O" alt=""/>
-							<img className="project-tile" data-project="5" src="https://via.placeholder.com/300C/O" alt=""/>
-							<img className="project-tile" data-project="6" src="https://via.placeholder.com/300C/O" alt=""/> */}
-						</section>
+						</section> */}
 
 						<section className="intro-text">
 							<p>I'm an emerging UX Designer passionate about people, proficient with research, with a creative mind and spirit, and an eye for detail ready to create beautiful experiences. I'm pretty great at research including competative audits, user interviews based on demographics, synthesizing qualitative and quantitative data, and using all that information to start getting down to the beautiful design of an awesome product and experience. An artist at heart with a customer service background, I bring the dynamic combination of creativity and understanding to the design process of the user’s experience. See my latest <Link className="text-link" to="/projects/">projects</Link> and how I might be able to help your team on your next venture.</p>
@@ -97,7 +98,7 @@ class Home extends React.Component {
 								</Link>
 							</article>
 
-							<article className="project"  data-project="3">
+							{/* <article className="project"  data-project="3">
 								<div className="project-image">
 									<img src={comingSoon} alt=""/>
 								</div>
@@ -105,16 +106,30 @@ class Home extends React.Component {
 									<h1>Coming Soon</h1>
 									<p>Check back soon to see my upcoming project!</p>
 								</div>
-								{/* <div className="project-tags">
-									<p>role</p>
-									<p>features</p>
-									<p>other stuff</p>
-								</div> */}
-							</article>
+							</article> */}
 						</section>
 
 
+						<section className="contact">
+							<h1 className="title">Contact Me
+								<span className="contact-icons"><img src={gmail}></img></span>
+								<span className="contact-icons"><img src={linkedin}></img></span>
+								<span className="contact-icons"><img src={twitter}></img></span>
+							</h1>
+
+							<ul>
+								<li>Email: <span>brianasbrock@gmail.com</span></li>
+								<li>Phone: <span>770.845.2311</span></li>
+								<li>LinkedIn: <span>https://www.linkedin.com/in/briana-brock/</span></li>
+								<li>Twitter: <span>https://twitter.com/BrianaBW1</span></li>
+								{/* <li><Link to="https://www.linkedin.com/in/briana-brock/"></Link></li> */}
+							</ul>
+
+
+
+						</section>
 					</section>
+
 				</div>
 			</Layout>
 		)

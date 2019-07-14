@@ -38,10 +38,7 @@ class Projects extends Component {
                     <section className="project-tiles">
                         <img className="project-tile" data-project="1" src={qoinsLogo} alt=""/>
                         <img className="project-tile" data-project="2" src={recycleLogo3} alt=""/>
-                        <img className="project-tile" data-project="3" src={comingSoon} alt=""/>
-                        {/* <img className="project-tile" data-project="4" src="https://via.placeholder.com/300C/O" alt=""/>
-                        <img className="project-tile" data-project="5" src="https://via.placeholder.com/300C/O" alt=""/>
-                        <img className="project-tile" data-project="6" src="https://via.placeholder.com/300C/O" alt=""/> */}
+                        {/* <img className="project-tile" data-project="3" src={comingSoon} alt=""/> */}
                     </section>
 
                     <section className="projects-container">
@@ -54,11 +51,6 @@ class Projects extends Component {
                                     <h1>Qoins</h1>
                                     <p>A financial management mobile app that rounds up your individual purchases and allows you to set up automatic payments to set money aside in order for you to pay off your debt faster</p>
                                 </div>
-                                {/* <div className="project-tags">
-                                    <p>role</p>
-                                    <p>features</p>
-                                    <p>other stuff</p>
-                                </div> */}
                             </Link>
                         </article>
 
@@ -72,15 +64,10 @@ class Projects extends Component {
                                 <div className="project-image">
                                     <img src={recycleLogo} alt=""/>
                                 </div>
-                                {/* <div className="project-tags">
-                                    <p>role</p>
-                                    <p>features</p>
-                                    <p>other stuff</p>
-                                </div> */}
                             </Link>
                         </article>
 
-                        <article className="project"  data-project="3">
+                        {/* <article className="project"  data-project="3">
                             <div className="project-image">
                                 <img src={comingSoon} alt=""/>
                             </div>
@@ -88,12 +75,7 @@ class Projects extends Component {
                                 <h1>Coming Soon</h1>
                                 <p>Check back soon to see my upcoming project!</p>
                             </div>
-                            {/* <div className="project-tags">
-                                <p>role</p>
-                                <p>features</p>
-                                <p>other stuff</p>
-                            </div> */}
-                        </article>
+                        </article> */}
                     </section>
                 </div>
             </Layout>
