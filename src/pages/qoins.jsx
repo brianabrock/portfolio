@@ -1,16 +1,6 @@
 import React from 'react';
 import Layout from "../components/layout"
-// import { Link } from "gatsby"
-import './css/qoins.scss'
-
-// import infinityMap from '../images/qoins/title9.png'
-// import team from '../images/qoins/team.png'
-// import team2 from '../images/qoins/team2.png'
-// import team3 from '../images/qoins/team3.png'
-// import img2 from '../images/qoins/img2.png'
-// import img3 from '../images/qoins/img3.png'
-// import img4 from '../images/qoins/img4.png'
-// import img5 from '../images/qoins/img5.png'
+import './styles/qoins.scss'
 
 import img1 from '../images/qoins/update/1-QOINS-Logo.png';
 import img2 from '../images/qoins/update/2-Qoins-Image.png';
@@ -43,8 +33,6 @@ import img26 from '../images/qoins/update/26-F-Credit-Card-Debt.png';
 import iteratedesk from '../images/qoins/update/iterate-desk.png';
 import iteratetab from '../images/qoins/update/iterate-tab.png';
 import iteratemob from '../images/qoins/update/iterate-mob.png';
-// import img27 from '../images/qoins/update/.png';
-// import img28 from '../images/qoins/update/.png';
 
 const Qoins = () => (
     <Layout>

@@ -1,0 +1,172 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#___gatsby {
+    overflow: hidden;
+}
+
+.home-page {
+    .hero {
+        height: 600px;
+        width: 100%;
+        background-color: #ccc;
+        background: url('../../images/art/rose.jpg') no-repeat;
+        background-size: cover;
+        background-position: 100% 35%;
+        z-index: 0;
+    }
+
+
+    .content {
+        width: 90%;
+        margin: 0 auto;
+
+        .brief-text {
+            background: #fff;
+            /* border: 1px solid #333;  */
+            z-index: 1;
+            width: 60%;
+            height: auto;
+            margin: -80px auto 0;
+            font: 700 30px 'Noto Sans', sans-serif;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px #ccc;
+
+            p {
+                margin: 0;
+            }
+        }
+
+
+        .intro-text {
+            margin: 30px auto 20px;
+
+            .text-link {
+                font: 700 18px 'Arial', sans-serif;
+                text-decoration: none;
+                transition: all .5s ease-in-out;
+
+                &.scrolled {
+                    font-size: 28px;
+                }
+            }
+        }
+
+        .contact {
+            width: 85%;
+            margin: 0 auto 100px;
+
+            .contact-icons {
+                margin-left: 5px;
+                img {
+                    height: 20px;
+                    width: 20px;
+                    margin: 0;
+                }
+
+                &:first-child {
+                    margin-left: 10px;
+                }
+            }
+
+            ul {
+                list-style: none;
+                margin-left: 0;
+                li {
+                    font-weight: 700;
+                    margin: 0;
+                    span {
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+
+    // .bottom-kickers {
+    //     display: block;
+    //     margin: 100px auto 200px;
+    //     text-align: center;
+
+    //     img, p {
+    //         display: inline-block;
+    //         margin: 0;
+    //         vertical-align: top;
+    //     }
+
+    //     p {
+    //         padding: 100px 20px;
+    //         width: 300px;
+    //     }
+    // }
+}
+
+
+
+@media (max-width: 750px) {
+
+    .home-page .hero {
+        height: 500px;
+    }
+
+    .home-page .brief-text {
+        font: 700 26px 'Noto Sans', sans-serif;
+
+    }
+
+    .home-page .followup-text {
+        margin: 20px auto;
+    }
+
+    .home-page .followup-text .chart {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .home-page .followup-text p {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+
+    .home-page .bottom-kickers {
+        margin: 50px auto;
+    }
+
+    .home-page .bottom-kickers .kicker {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .home-page .hero {
+        height: 400px;
+    }
+
+    .home-page .brief-text {
+        width: 90%;
+        font-size: 24px;
+        margin-top: -80px;
+        margin-bottom: 50px;
+        // height: 200px;
+    }
+}
+
+@media (max-width: 450px) {
+    .home-page .followup-text .chart {
+        width: 90%;
+    }
+
+    .home-page .skill-badges {
+        margin: 50px auto;
+    }
+}

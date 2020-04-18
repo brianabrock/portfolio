@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Layout from "../components/layout"
-import './css/art.css';
+import './styles/art.scss';
 
 import l1 from '../images/art/rose.jpg'
 import c1 from '../images/art/the_dock.jpg'

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Briana Brock`,
-    description: `Web portfolio for Briana Brock. `,
+    description: `Web portfolio for Briana Brock.`,
     author: `Allen Welch`,
   },
   plugins: [
@@ -19,9 +19,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
+        name: `brianabrock-portfolio`,
+        short_name: `Briana Brock Portfolio`,
+        start_url: `/portfolio`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
