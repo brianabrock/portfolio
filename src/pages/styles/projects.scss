@@ -1,0 +1,210 @@
+.projects-page .hero {
+    height: 400px;
+    width: 100%;
+    background-color: #ccc;
+    background: url('../../images/art/art1-1.jpg') no-repeat;
+    background: linear-gradient(to bottom, #333, #fff);
+    background-size: cover;
+
+    position: relative;
+    @media (max-width: 750px) {
+        height: 300px;
+    }
+}
+
+.project-tiles {
+    width: 90%;
+    height: auto;
+    margin: -250px auto 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+
+    img {
+        box-shadow: 0 0 15px #ccc;
+
+    }
+
+    @media (max-width: 750px) {
+        margin: -150px auto 100px;
+    }
+
+    @media (max-width: 450px) {
+        margin: -150px auto 100px;
+    }
+
+    .project-tile {
+        height: 200px;
+        width: 200px;
+        max-height: 300px;
+        border-radius: 20px;
+        margin: 0 10px 15px;
+        cursor: pointer;
+        background: #fff;
+
+        @media (max-width: 750px) {
+            height: 100px;
+            width: 100px;
+        }
+
+        @media (max-width: 450px) {
+            height: 90px;
+            width: 90px;
+        }
+    }
+}
+
+
+// .projects-container {
+//     width: 90%;
+//     margin: 0 auto 100px;
+
+
+//     .project {
+//         margin: 20px auto 100px;
+
+//         a {
+//             color: #333;
+//             text-decoration: none;
+//             display: flex;
+//             justify-content: space-between;
+//             flex-direction: row;
+
+//             @media (max-width: 750px) {
+//                 flex-direction: column;
+
+//             }
+//         }
+
+//         .project-image {
+//             display: inline-block;
+//             vertical-align: top;
+//             width: 55%;
+//             height: auto;
+
+//             img {
+//                 height: auto;
+//                 max-height: 380px;
+//             }
+
+//             @media (max-width: 750px) {
+//                 display: block;
+//                 width: 100%;
+//                 text-align: center;
+//                 order: 1;
+//             }
+
+//             @media (max-width: 550px) {
+
+//             }
+//         }
+
+//         .project-description {
+//             display: inline-block;
+//             vertical-align: top;
+//             width: 45%;
+//             padding: 50px 20px 0;
+
+//             @media (max-width: 750px) {
+//                 display: block;
+//                 width: 100%;
+//                 padding: 20px 20px 0;
+//                 order: 2;
+
+//             }
+//         }
+
+//         @media (max-width: 750px) {
+//            margin: 20px 0;
+//            padding: 0;
+//         }
+//     }
+
+
+
+// }
+
+
+
+.project:nth-child(even) .project-description {
+    text-align: right;
+}
+
+.project-tags p {
+    display: inline-block;
+    width: 33%;
+    text-align:center;
+}
+
+@media (max-width:1000px) {
+    .project-tiles img {
+        height: 250px;
+    }
+}
+
+@media (max-width:750px) {
+    .project-image img {
+    }
+
+    .project-description h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .project-description p {
+        font-size: 14px;
+    }
+
+    .project-tiles {
+        max-width: 500px;
+    }
+    .project-tiles img {
+        margin: 5px;
+        height: 150px;
+        width: 150px;
+    }
+}
+
+// @media (max-width:550px) {
+
+//     .project {
+//         text-align: center;
+//         display: flex;
+//         flex-direction: column;
+//         margin: -50px auto 0px;
+//         padding-top: 100px;
+//     }
+//     .project-image {
+//         width: 90%;
+//         order: 1;
+//         margin: 0 auto;
+//     }
+//     .project-description {
+//         order: 2;
+//         display: block;
+//         width: 90%;
+//         margin: 0 auto;
+//         padding: 0;
+//         text-align: left;
+//     }
+
+//     .project-tags {
+//         order: 3;
+//         width: 90%;
+//         margin: 0 auto;
+//     }
+
+//     .project:nth-child(odd) .project-tags p {
+//         text-align: left;
+//     }
+//     .project:nth-child(even) .project-tags p {
+//         text-align: right;
+//     }
+
+// }
+
+
+
+

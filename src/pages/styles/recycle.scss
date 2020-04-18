@@ -1,0 +1,514 @@
+.recycle-atl-page {
+
+    .hero {
+        background: linear-gradient(to bottom, #ACD7A6, #fff);
+        text-align: center;
+        padding: 100px 0 40px;
+
+
+        img {
+            width: 50%;
+        }
+
+        p {
+            width: 80%;
+            margin: 0 auto;
+
+        }
+    }
+
+    .section-heading {
+        font-family: 'Risque', cursive;
+        font-size: 24px;
+        border-bottom: 1px solid #333;
+    }
+
+    .section-subheading {
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    p, li {
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    .text1, .text2, .text3, .text4, .text5, .text6 {
+        margin-top: 20px;
+    }
+
+
+    .slides {
+
+        .slide {
+            height: auto;
+            width: 100%;
+            padding: 0 10px;
+            margin-top: 20px;
+
+            .container {
+                max-width: 1000px;
+                margin: 0 auto;
+            }
+
+            .shadow {
+                box-shadow: 0 0 10px #ccc;
+            }
+
+            &.slide1 {
+                background: #ACD7A6;
+                padding-top: 200px;
+
+                .container {
+                    text-align: center;
+                    padding-bottom: 40px;
+
+
+                    img {
+                        width: 50%;
+                    }
+
+                    p {
+                        width: 80%;
+                        margin: 0 auto;
+                        background: #fff;
+                        margin: 0 -10px;
+                    }
+
+                }
+
+                .l {
+                    width: 50%;
+                    display: inline-block;
+                    text-align: center;
+                    padding: 2%;
+                    img {
+                        width: 90%;
+                        margin: 0;
+                    }
+                    .contain {
+                        background: #fff;
+                        width: 90%;
+                        margin: 0 auto;
+                        border-radius: 20px;
+                        padding: 10px;
+                        img {
+                            width: 70%;
+                        }
+                    }
+
+
+                }
+
+                .r {
+                    width: 50%;
+                    display: inline-block;
+                    padding: 2%;
+                    vertical-align: top;
+                    text-align: center;
+
+                    .contain {
+                        padding: 20px;
+                        background: #fff;
+                        border-radius: 20px;
+                        p {
+                            padding: 20px;
+                            width: 90%;
+                            margin: 0 auto;
+                            font-size: 24px;
+                        }
+
+                        img {
+                            width: 55%;
+                        }
+                    }
+
+                }
+            }
+
+            &.slide2 {
+                margin-top: 20px;
+                .container {
+                    .contain {
+                        background: #ACD7A6;
+                        background: linear-gradient(to bottom right, #ACD7A6, #ffffff);
+
+                        position: relative;
+                        padding: 20px;
+                        border-radius: 20px;
+
+                        .l {
+                            display: inline-block;
+                            vertical-align: top;
+                        }
+                        .r {
+                            display: inline-block;
+                            vertical-align: top;
+                            width: 40%;
+                            text-align: center;
+                            img {
+                                max-height: 200px;
+                                display: block;
+                                margin: 0 auto;
+
+                                &.logo {
+                                    max-height: 250px;
+                                    height: 250px;
+                                }
+                                &:last-child {
+                                    position: absolute;
+                                    bottom: 5%;
+                                    right: 10%;
+                                    transform: rotate(30deg);
+
+                                    @media (max-width: 850px) {
+                                        height: 150px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .l, .r {
+                            @media (max-width: 850px) {
+                                display: block;
+                                text-align: center;
+                                width: 100%;
+                            }
+                        }
+
+
+                    }
+                }
+
+            }
+            &.slide3 {
+                min-height: initial;
+
+                .container {
+
+                    h4 {
+                        font-family: 'Risque', cursive;
+                        font-size: 30px;
+                        color: #419234;
+                        margin-top: 50px;
+
+                    }
+
+                    .text1 {
+
+                    }
+
+                    .bubbles {
+                        .bubble {
+                            font-family: 'IBM Plex Serif', serif;
+                            font-size: 18px;
+                            width: 25%;
+                            display: inline-block;
+                            vertical-align: top;
+                            text-align: center;
+
+                            img {
+                                width: 90%;
+                            }
+
+                            @media (max-width: 500px) {
+                                font-size: 14px;
+
+                            }
+                        }
+                    }
+                }
+
+            }
+            &.slide4 {
+                .container {
+
+                    img {
+                        margin-bottom: 0;
+                    }
+
+                    .text1 {
+
+                    }
+
+                    .top-imgs {
+                        margin-top: 30px;
+                        text-align: center;
+                        background: #ACD7A6;
+                        background: linear-gradient(to bottom right, #ACD7A6, #ffffff);
+
+                        padding: 20px;
+                        border-radius: 20px;
+                    }
+                    .middle-imgs {
+                        margin-top: 30px;
+                        text-align: center;
+                        background: #ACD7A6;
+                        background: linear-gradient(to bottom right, #ACD7A6, #ffffff);
+
+                        padding: 20px;
+                        border-radius: 20px;
+                    }
+                    .bottom-imgs {
+                        margin-top: 30px;
+                        text-align: center;
+                        background: #ACD7A6;
+                        background: linear-gradient(to bottom right, #ACD7A6, #ffffff);
+
+                        padding: 20px;
+                        border-radius: 20px;
+                        p {
+                            margin-bottom: 20px;
+                        }
+
+                    }
+
+                    .text2 {
+                        border-top: 1px solid #333;
+                        padding-top: 30px;
+                    }
+
+                    .text3 {
+                        border-top: 1px solid #333;
+                        padding-top: 30px;
+
+                        .innerText {
+                            display: inline-block;
+                            vertical-align: top;
+                            width: 40%;
+                            margin-top: 50px;
+                            margin-right: 20px;
+                            p {
+                                margin-bottom: 10px;
+                            }
+                        }
+                        img {
+                            display: inline-block;
+                            vertical-align: top;
+                            width: 50%;
+                            margin-top: -5%;
+                        }
+
+                        .innerText, img {
+                            @media (max-width: 750px) {
+                                display: block;
+                                width: 100%;
+                                margin: 0;
+                            }
+                        }
+                    }
+
+                    .text4 {
+                        border-top: 1px solid #333;
+                        padding-top: 30px;
+                        .contain {
+                            width: 100%;
+                            margin: 0 auto;
+                            text-align: center;
+
+                            .images {
+                                margin: 0 auto;
+                                img {
+                                    vertical-align: top;
+                                    padding: 20px;
+
+                                    &:last-child {
+                                        padding: 130px 20px;
+
+                                        @media (max-width: 732px) {
+                                            padding: 20px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+            }
+            &.slide5 {
+                .container {
+
+                    .images {
+                        text-align: center;
+                        img {
+                            margin: 0 auto;
+                        }
+                    }
+                    .contain {
+                        text-align: center;
+                    }
+
+                    .text1, .text2 {
+                        display: inline-block;
+                        vertical-align: top;
+                        margin: 20px 20px;
+                        ul {
+                            list-style-type: disc;
+                            text-align: left;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .persona {
+                        background: #ACD7A6;
+                        background: linear-gradient(to bottom right, #ACD7A6, rgb(203, 230, 199));
+
+                        padding: 20px;
+                        border-radius: 20px;
+                        .textbox {
+                            background: #fff;
+                            text-align: left;
+                            border-radius: 20px;
+                            padding: 20px;
+                            ul {
+                                list-style-type: disc;
+                            }
+
+                            .tite {
+                                font-weight: 700;
+                                margin-bottom: 10px;
+                            }
+                        }
+                        .l {
+                            text-align: center;
+                            width: 30%;
+                            display: inline-block;
+                            vertical-align: top;
+
+                            img {
+                                height: 350px;
+                                border-radius: 10%;
+                                margin: 10px 0 0;
+                            }
+                        }
+
+                        .r {
+                            width: 66%;
+                            margin-left: 4%;
+                            display: inline-block;
+                            vertical-align: top;
+                            .textbox {
+                                margin: 10px 0;
+                            }
+                        }
+
+                        .l, .r {
+                            @media (max-width: 750px) {
+                                display: block;
+                                width: 100%;
+                                margin: 0;
+                            }
+                        }
+                    }
+
+                    .text6 {
+                        ul {
+                            list-style-type: disc;
+                            margin-bottom: 0;
+                            li          {
+                                span {
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+
+                        .images {
+                            max-width: 800px;
+                            margin: 0 auto;
+                            img {
+                                width: 30%;
+                                padding: 20px;
+                                vertical-align: top;
+
+                                &:first-child {
+                                    padding-top: 40px;
+                                }
+
+                                &:nth-child(2) {
+                                    padding: 60px 20px 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+            &.slide6 {
+                .container {
+                    .wireframes {
+                        text-align: center;
+                        background: url('../../images/recycleatl/updates/leaves.png'), linear-gradient(to bottom, #ACD7A6, #fff);
+                        background-repeat: no-repeat;
+                        padding: 20px;
+                        .bottomImg {
+                            width: 70%;
+                        }
+                        img {
+                            width: 90%;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+
+            }
+            &.slide7 {
+                .container {
+
+                    .text1 {
+                        text-align: center;
+                        p {
+                            margin-bottom: 10px;
+                        }
+                        .imgs {
+                            background: #ACD7A6;
+                            background: linear-gradient(to bottom right, #ACD7A6, #ffffff);
+
+                            border-radius: 20px;
+                            padding: 20px;
+                            text-align: center;
+
+                            img {
+                                margin: 0 5%;
+                                width: 40%;
+
+                            }
+                        }
+                    }
+                }
+
+            }
+            &.slide8 {
+                margin-top: 50px;
+                .container {
+                    text-align: center;
+                    img {
+                        width: 90%;
+                    }
+                }
+
+            }
+            &.slide9 {
+                padding-bottom: 100px;
+                .container {
+                    text-align: center;
+                    img {
+                        width: 50%;
+                    }
+                }
+
+            }
+        }
+    }
+}
