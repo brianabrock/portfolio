@@ -78,5 +78,12 @@
             margin: -50px auto 0px;
             padding-top: 100px;
         }
+
+        &[data-project="3"] {
+            .project-image {
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
     }
 }

@@ -41,7 +41,7 @@ const ProjectsList = () => {
                     </div>
                     <div className="project-description">
                         <h1>Yay Stack</h1>
-                        <p>Check back soon to see my upcoming project!</p>
+                        <p>This case study is a usability test for a mobile application to gauge interest and preferences from users before product launch.</p>
                     </div>
                 </Link>
             </article>

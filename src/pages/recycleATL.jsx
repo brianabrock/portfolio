@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from "../components/layout"
+import { Link } from "gatsby"
+
 import './styles/recycle.scss'
 
 import flow2 from '../images/recycleatl/flow2.png'
@@ -38,16 +40,6 @@ const Recycle = () => (
             </section>
             <section className="slides">
 
-                {/* <div className="slide slide1">
-                    <div className="container">
-
-                        <div className="r">
-                        </div>
-                        <div className="contain">
-
-                        </div>
-                    </div>
-                </div> */}
                 <div className="slide slide2">
                     <div className="container">
                         <div className="contain">
@@ -282,6 +274,10 @@ const Recycle = () => (
                 </div>
 
             </section>
+
+            <div className="back-link" style={{textAlign: 'center', marginBottom: '40px'}}>
+                <Link to="/projects">Back to Projects Page</Link>
+            </div>
         </div>
     </Layout>
 );
