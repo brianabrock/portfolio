@@ -1,7 +1,6 @@
 .recycle-atl-page {
 
     .hero {
-        // background: #ACD7A6;
         background: linear-gradient(to bottom, #ACD7A6, #fff);
         text-align: center;
         padding: 100px 0 40px;
@@ -48,7 +47,6 @@
     .slides {
 
         .slide {
-            // min-height: 600px;
             height: auto;
             width: 100%;
             padding: 0 10px;
@@ -65,7 +63,6 @@
 
             &.slide1 {
                 background: #ACD7A6;
-
                 padding-top: 200px;
 
                 .container {
@@ -248,19 +245,6 @@
 
                         padding: 20px;
                         border-radius: 20px;
-                        img {
-                            // &:first-child {
-                            //     width: 70%;
-                            // }
-
-                            // &:last-child {
-
-                            //     height: 150px;
-                            //     border: 20px solid #ACD7A6;
-                            //     margin: 50px 10px 10px;
-                            //     vertical-align: top;
-                            // }
-                        }
                     }
                     .middle-imgs {
                         margin-top: 30px;
@@ -280,13 +264,9 @@
                         padding: 20px;
                         border-radius: 20px;
                         p {
-                            // width: 20%;
                             margin-bottom: 20px;
                         }
 
-                        // img {
-                        //     width: 75%;
-                        // }
                     }
 
                     .text2 {
@@ -347,11 +327,6 @@
                                     }
                                 }
                             }
-
-
-                            // @media (max-width: 900px) {
-                            //     text-align: center;
-                            // }
                         }
                     }
 
@@ -450,7 +425,6 @@
                         }
 
                         .images {
-                            // padding: 20px;
                             max-width: 800px;
                             margin: 0 auto;
                             img {
@@ -476,7 +450,6 @@
                     .wireframes {
                         text-align: center;
                         background: url('../../images/recycleatl/updates/leaves.png'), linear-gradient(to bottom, #ACD7A6, #fff);
-                        // background-image: url('../../images/recycleatl/updates/leaves.png');
                         background-repeat: no-repeat;
                         padding: 20px;
                         .bottomImg {
@@ -538,6 +511,4 @@
             }
         }
     }
-
-
 }

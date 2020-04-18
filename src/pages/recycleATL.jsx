@@ -1,37 +1,22 @@
 import React from 'react';
 import Layout from "../components/layout"
-import './css/recycle.scss'
+import { Link } from "gatsby"
+
+import './styles/recycle.scss'
 
 import flow2 from '../images/recycleatl/flow2.png'
 import graph1 from '../images/recycleatl/graph1.png'
 import graph2 from '../images/recycleatl/graph2.png'
 import graph3 from '../images/recycleatl/graph3.png'
-import img1 from '../images/recycleatl/img1.png'
-import img2 from '../images/recycleatl/img2.png'
-// import img3 from '../images/recycleatl/img3.png'
-import img4 from '../images/recycleatl/img4.png'
 import img5 from '../images/recycleatl/img5.png'
-// import img6 from '../images/recycleatl/img6.png'
-// import img7 from '../images/recycleatl/img7.png'
-// import img8 from '../images/recycleatl/img8.png'
-// import img9 from '../images/recycleatl/img9.png'
-import img10 from '../images/recycleatl/img10.png'
-import img11 from '../images/recycleatl/img11.png'
-import img12 from '../images/recycleatl/img12.png'
-import img13 from '../images/recycleatl/img13.png'
-import logo from '../images/recycleatl/logo.png'
-// import logo2 from '../images/recycleatl/logo2.png'
 import logo3 from '../images/recycleatl/updates/logo3.png'
 import photo1 from '../images/recycleatl/photo1.png'
-// import photo2 from '../images/recycleatl/photo2.png'
 import photo3 from '../images/recycleatl/photo3.png'
 import photo4 from '../images/recycleatl/photo4.png'
 import use2 from '../images/recycleatl/use2.png'
 import use3 from '../images/recycleatl/use3.png'
-
 import mockups from '../images/recycleatl/updates/mockups.png'
 import iphone from '../images/recycleatl/updates/p2_iPhone.png'
-import chart from '../images/recycleatl/updates/p6_chart.png'
 import chart2 from '../images/recycleatl/updates/p6_chart2.png'
 import edu from '../images/recycleatl/updates/p10_edu.png'
 import map from '../images/recycleatl/updates/p10_map.png'
@@ -55,16 +40,6 @@ const Recycle = () => (
             </section>
             <section className="slides">
 
-                {/* <div className="slide slide1">
-                    <div className="container">
-
-                        <div className="r">
-                        </div>
-                        <div className="contain">
-
-                        </div>
-                    </div>
-                </div> */}
                 <div className="slide slide2">
                     <div className="container">
                         <div className="contain">
@@ -299,6 +274,10 @@ const Recycle = () => (
                 </div>
 
             </section>
+
+            <div className="back-link" style={{textAlign: 'center', marginBottom: '40px'}}>
+                <Link to="/projects">Back to Projects Page</Link>
+            </div>
         </div>
     </Layout>
 );
