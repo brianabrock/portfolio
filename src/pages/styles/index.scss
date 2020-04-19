@@ -17,6 +17,14 @@ body {
         background-size: cover;
         background-position: 100% 35%;
         z-index: 0;
+
+        @media (max-width: 750px) {
+            height: 500px;
+        }
+
+        @media (max-width: 600px) {
+            height: 400px;
+        }
     }
 
 
@@ -38,6 +46,17 @@ body {
 
             p {
                 margin: 0;
+            }
+
+            @media (max-width: 750px) {
+                font: 700 26px 'Noto Sans', sans-serif;
+            }
+
+            @media (max-width: 600px) {
+                width: 90%;
+                font-size: 24px;
+                margin-top: -80px;
+                margin-bottom: 50px;
             }
         }
 
@@ -88,66 +107,6 @@ body {
     }
 }
 
-@media (max-width: 750px) {
-
-    .home-page .hero {
-        height: 500px;
-    }
-
-    .home-page .brief-text {
-        font: 700 26px 'Noto Sans', sans-serif;
-
-    }
-
-    .home-page .followup-text {
-        margin: 20px auto;
-    }
-
-    .home-page .followup-text .chart {
-        display: block;
-        margin: 0 auto;
-        width: 60%;
-    }
-
-    .home-page .followup-text p {
-        display: block;
-        padding: 0;
-        margin: 0 auto;
-        width: 90%;
-    }
-
-
-    .home-page .bottom-kickers {
-        margin: 50px auto;
-    }
-
-    .home-page .bottom-kickers .kicker {
-        margin: 0;
-    }
-
-}
-
-@media (max-width: 600px) {
-
-    .home-page .hero {
-        height: 400px;
-    }
-
-    .home-page .brief-text {
-        width: 90%;
-        font-size: 24px;
-        margin-top: -80px;
-        margin-bottom: 50px;
-        // height: 200px;
-    }
-}
-
 @media (max-width: 450px) {
-    .home-page .followup-text .chart {
-        width: 90%;
-    }
 
-    .home-page .skill-badges {
-        margin: 50px auto;
-    }
 }
