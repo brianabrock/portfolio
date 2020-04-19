@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import qoinsLogo from '../images/qoins/title2.png'
 import recycleLogo from '../images/recycleatl/logo.png'
+import yaystackLogo from '../images/yaystack/yay.jpg';
 import './styles/projects-list.scss';
 
 const ProjectsList = () => {
@@ -37,7 +38,7 @@ const ProjectsList = () => {
             <article className="project" data-project="3">
                 <Link to="/YayStack">
                     <div className="project-image">
-                        <img src="https://thumbnails-photos.amazon.com/v1/thumbnail/whR6DYFsRKm2WfUgj7Yipg?viewBox=512%2C512&ownerId=A1VFC1KOR2FJO4" alt="yaystack"/>
+                        <img src={yaystackLogo} alt="yaystack"/>
                     </div>
                     <div className="project-description">
                         <h1>Yay Stack</h1>
