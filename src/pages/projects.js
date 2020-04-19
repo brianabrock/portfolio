@@ -6,6 +6,7 @@ import './styles/projects.scss'
 
 import qoinsLogo from '../images/qoins/title1.png'
 import recycleLogo3 from '../images/recycleatl/logo3.png'
+import yaystackLogo from '../images/yaystack/yay.jpg';
 
 class Projects extends Component {
 
@@ -33,7 +34,7 @@ class Projects extends Component {
                     <section className="project-tiles">
                         <img className="project-tile" data-project="1" src={qoinsLogo} alt="qoins"/>
                         <img className="project-tile" data-project="2" src={recycleLogo3} alt="recycle atl"/>
-                        <img className="project-tile" data-project="3" src="https://thumbnails-photos.amazon.com/v1/thumbnail/whR6DYFsRKm2WfUgj7Yipg?viewBox=512%2C512&ownerId=A1VFC1KOR2FJO4" alt="yay stack"/>
+                        <img className="project-tile" data-project="3" src={yaystackLogo} alt="yay stack"/>
                     </section>
 
                     <ProjectsList />

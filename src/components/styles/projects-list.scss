@@ -43,6 +43,31 @@
             }
         }
 
+        &[data-project="3"] {
+            .project-image {
+                display: flex;
+                justify-content: space-evenly;
+
+                @media (max-width: 750px) {
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    order: 1;
+                }
+
+                img {
+
+                    @media (max-width: 750px) {
+                        height: 300px;
+                    }
+
+                    @media (max-width: 550px) {
+                        height: 250px;
+                    }
+                }
+            }
+        }
+
         .project-description {
             display: inline-block;
             vertical-align: top;
@@ -79,11 +104,6 @@
             padding-top: 100px;
         }
 
-        &[data-project="3"] {
-            .project-image {
-                display: flex;
-                justify-content: space-evenly;
-            }
-        }
+
     }
 }
